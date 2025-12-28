@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Gizlilik Politikası";
+}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <span class="section-subtitle">Yasal</span>
+            <h1>Gizlilik Politikası</h1>
+            <p>Verilerinizi nasıl koruyoruz?</p>
+        </div>
+    </div>
+</section>
+
+<!-- Privacy Content -->
+<section class="section">
+    <div class="container" style="max-width: 800px;">
+        <div class="card" style="padding: 48px;">
+            <h2>Veri Toplama ve Kullanımı</h2>
+            <p>
+                Tailcode olarak, web sitemizi ziyaret ettiğinizde ve iletişim formumuzu 
+                kullandığınızda topladığımız bilgileri korumayı taahhüt ediyoruz.
+            </p>
+            
+            <h3 style="margin-top: 32px;">Hangi Bilgileri Topluyoruz?</h3>
+            <ul class="problem-list">
+                <li>İletişim formundan gönderdiğiniz ad, e-posta ve mesaj bilgileri</li>
+                <li>Web sitesi kullanım istatistikleri (anonim)</li>
+            </ul>
+            
+            <h3 style="margin-top: 32px;">Bilgilerinizi Nasıl Kullanıyoruz?</h3>
+            <ul class="problem-list">
+                <li>Size yanıt vermek ve iletişim kurmak için</li>
+                <li>Hizmetlerimizi geliştirmek için</li>
+                <li>Yasal yükümlülüklerimizi yerine getirmek için</li>
+            </ul>
+            
+            <h3 style="margin-top: 32px;">Veri Güvenliği</h3>
+            <p>
+                Bilgilerinizi korumak için endüstri standardı güvenlik önlemleri kullanıyoruz. 
+                Verilerinizi üçüncü taraflarla satmaz veya paylaşmayız.
+            </p>
+            
+            <h3 style="margin-top: 32px;">İletişim</h3>
+            <p>
+                Gizlilik politikamız hakkında sorularınız varsa, 
+                <a asp-controller="Home" asp-action="Contact">iletişim sayfamız</a> 
+                üzerinden bize ulaşabilirsiniz.
+            </p>
+            
+            <p style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.875rem;">
+                Son güncelleme: @DateTime.Now.ToString("dd MMMM yyyy", new System.Globalization.CultureInfo("tr-TR"))
+            </p>
+        </div>
+    </div>
+</section>

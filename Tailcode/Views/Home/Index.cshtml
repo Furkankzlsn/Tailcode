@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="~/images/logo-icon-dark.png" alt="Tailcode" class="hero-logo" />
+        <h1 class="hero-title">
+            <span class="gradient-text">Hazır kalıplar değil,</span><br />
+            size uyan yazılımlar.
+        </h1>
+        <p class="hero-subtitle">
+            Kurumların ve ekiplerin kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için yazılım çözümleri üretiyoruz.
+        </p>
+        <div class="hero-actions">
+            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">
+                Bizimle Çalışın
+            </a>
+            <a asp-controller="Home" asp-action="Services" class="btn btn-outline">
+                Hizmetlerimiz
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Problem Section -->
+<section class="section">
+    <div class="container">
+        <div class="problem-grid">
+            <div class="problem-content" data-animate>
+                <span class="section-subtitle">Problem</span>
+                <h2>Hazır yazılımlar her zaman yetmez</h2>
+                <p class="lead">
+                    Hazır sistemler kurumların %70 ihtiyacını karşılar. Ama kalan %30, işin en kritik kısmıdır.
+                </p>
+                <ul class="problem-list">
+                    <li>İş akışını bozar ve ekiplere yük olur</li>
+                    <li>Manuel çözümler ve geçici çareler doğurur</li>
+                    <li>Verimsizlik ve zaman kaybı yaratır</li>
+                    <li>Raporlama ve takip zorlaşır</li>
+                </ul>
+                <p style="margin-top: 24px; font-weight: 500; color: var(--accent-green);">
+                    Tailcode, tam olarak bu %30'luk alanı çözer.
+                </p>
+            </div>
+            <div class="problem-visual" data-animate>
+                <div class="card" style="text-align: center; padding: 48px;">
+                    <div class="stat-number" style="font-size: 5rem;">%30</div>
+                    <p style="font-size: 1.25rem; margin-top: 16px;">
+                        Hazır sistemlerin karşılamadığı<br />
+                        <strong style="color: var(--accent-yellow);">kritik ihtiyaçlar</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Overview -->
+<section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="section-header" data-animate>
+            <span class="section-subtitle">Hizmetlerimiz</span>
+            <h2>Size özel çözümler sunuyoruz</h2>
+            <p>Tailcode olarak dört ana alanda uzmanlık sunuyoruz.</p>
+        </div>
+        
+        <div class="card-grid">
+            <div class="card" data-animate>
+                <div class="card-icon">🏢</div>
+                <h3 class="card-title">Kuruma Özel Yazılımlar</h3>
+                <p class="card-text">
+                    Kurum içi sistemler, birimler arası iş akışı çözümleri, özel paneller ve yetkilendirme yapıları.
+                </p>
+            </div>
+            
+            <div class="card" data-animate>
+                <div class="card-icon">⚙️</div>
+                <h3 class="card-title">İş Akışı Çözümleri</h3>
+                <p class="card-text">
+                    Görev ve takip sistemleri, toplantı yönetimi, süreç haritalama ve manuel işlerin dijitalleştirilmesi.
+                </p>
+            </div>
+            
+            <div class="card" data-animate>
+                <div class="card-icon">📊</div>
+                <h3 class="card-title">Veri & Raporlama</h3>
+                <p class="card-text">
+                    Kuruma özel raporlar, veri işleme çözümleri, Excel/Python/API entegrasyonları ve yönetici panelleri.
+                </p>
+            </div>
+            
+            <div class="card" data-animate>
+                <div class="card-icon">🚀</div>
+                <h3 class="card-title">Prototip & Doğrulama</h3>
+                <p class="card-text">
+                    Hızlı çalışan prototipler, tıklanabilir arayüzler ve gerçek senaryolarla test edilmiş çözümler.
+                </p>
+            </div>
+        </div>
+        
+        <div class="text-center" style="margin-top: 48px;">
+            <a asp-controller="Home" asp-action="Services" class="btn btn-outline">
+                Tüm Hizmetleri Görüntüle →
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Process Section -->
+<section class="section">
+    <div class="container">
+        <div class="section-header" data-animate>
+            <span class="section-subtitle">Metodoloji</span>
+            <h2>Nasıl çalışıyoruz?</h2>
+            <p>Problemi anlayarak başlıyor, çözümü size özel tasarlıyoruz.</p>
+        </div>
+        
+        <div class="process-grid">
+            <div class="process-item" data-animate>
+                <div class="process-number">1</div>
+                <h4 class="process-title">Dinleme & Analiz</h4>
+                <p class="process-text">İhtiyaçlarınızı, süreçlerinizi ve mevcut sorunları derinlemesine anlıyoruz.</p>
+            </div>
+            
+            <div class="process-item" data-animate>
+                <div class="process-number">2</div>
+                <h4 class="process-title">Çerçeveleme</h4>
+                <p class="process-text">Problemi netleştiriyor, çözüm kapsamını ve beklentileri belirliyoruz.</p>
+            </div>
+            
+            <div class="process-item" data-animate>
+                <div class="process-number">3</div>
+                <h4 class="process-title">Prototip</h4>
+                <p class="process-text">Çalışan bir prototiple fikri somutlaştırıyor, hızlı geri bildirim alıyoruz.</p>
+            </div>
+            
+            <div class="process-item" data-animate>
+                <div class="process-number">4</div>
+                <h4 class="process-title">Uygulama</h4>
+                <p class="process-text">Onaylanan prototip üzerinden tam çözümü geliştiriyoruz.</p>
+            </div>
+            
+            <div class="process-item" data-animate>
+                <div class="process-number">5</div>
+                <h4 class="process-title">Teslim & Dokümantasyon</h4>
+                <p class="process-text">Çözümü teslim ediyor, kullanım kılavuzunu ve teknik dokümanları sağlıyoruz.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- What We Don't Do Section -->
+<section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="section-header" data-animate>
+            <span class="section-subtitle">Net Sınırlar</span>
+            <h2>Tailcode ne yapmaz?</h2>
+            <p>Odaklanmak için ne yapmadığımızı da net bir şekilde tanımlıyoruz.</p>
+        </div>
+        
+        <div class="card-grid" style="max-width: 900px; margin: 0 auto;">
+            <div class="card" data-animate style="border-left: 3px solid var(--accent-yellow);">
+                <p class="card-text" style="margin: 0;">
+                    <strong style="color: var(--text-primary);">✗</strong> Herkese web sitesi yapmayız
+                </p>
+            </div>
+            <div class="card" data-animate style="border-left: 3px solid var(--accent-yellow);">
+                <p class="card-text" style="margin: 0;">
+                    <strong style="color: var(--text-primary);">✗</strong> Template sistemler satmayız
+                </p>
+            </div>
+            <div class="card" data-animate style="border-left: 3px solid var(--accent-yellow);">
+                <p class="card-text" style="margin: 0;">
+                    <strong style="color: var(--text-primary);">✗</strong> "Bir şeyler olsun" projelerine girmeyiz
+                </p>
+            </div>
+            <div class="card" data-animate style="border-left: 3px solid var(--accent-yellow);">
+                <p class="card-text" style="margin: 0;">
+                    <strong style="color: var(--text-primary);">✗</strong> Net problemi olmayan talepleri kabul etmeyiz
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section">
+    <div class="cta-section">
+        <div class="cta-content" data-animate>
+            <h2 class="cta-title">Projenizi konuşalım</h2>
+            <p class="cta-text">
+                Kurumunuzun özel ihtiyaçlarını anlayalım ve size uygun çözümü birlikte tasarlayalım.
+            </p>
+            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">
+                Bize Ulaşın
+            </a>
+        </div>
+    </div>
+</section>
