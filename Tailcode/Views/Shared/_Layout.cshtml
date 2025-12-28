@@ -1,10 +1,16 @@
-﻿<!DOCTYPE html>
-<html lang="tr">
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Localization
+@using Tailcode
+@inject IStringLocalizer<SharedResource> Localizer
+
+<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Tailcode - Hazır kalıplar değil, size uyan yazılımlar. Kurumların ve ekiplerin kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için kurulan yazılım çözüm şirketi." />
-    <meta name="keywords" content="özel yazılım, kurumsal yazılım, iş akışı çözümleri, yazılım geliştirme, Tailcode" />
+    <meta name="description" content="Tailcode - @Localizer["FooterDescription"]" />
+    <meta name="keywords" content="custom software, enterprise software, workflow solutions, software development, Tailcode" />
     <meta name="author" content="Tailcode" />
     
     <title>@ViewData["Title"] - Tailcode</title>
@@ -18,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
@@ -29,7 +36,7 @@
                 <span>tailcode</span>
             </a>
             
-            <button class="navbar-toggle" id="navbarToggle" aria-label="Menüyü aç/kapat">
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -38,26 +45,72 @@
             <ul class="navbar-nav" id="navbarNav">
                 <li>
                     <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")" 
-                       asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                       asp-controller="Home" asp-action="Index">@Localizer["NavHome"]</a>
                 </li>
                 <li>
                     <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "About" ? "active" : "")" 
-                       asp-controller="Home" asp-action="About">Hakkımızda</a>
+                       asp-controller="Home" asp-action="About">@Localizer["NavAbout"]</a>
                 </li>
                 <li>
                     <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Services" ? "active" : "")" 
-                       asp-controller="Home" asp-action="Services">Hizmetler</a>
+                       asp-controller="Home" asp-action="Services">@Localizer["NavServices"]</a>
                 </li>
                 <li>
                     <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Solutions" ? "active" : "")" 
-                       asp-controller="Home" asp-action="Solutions">Çözümlerimiz</a>
+                       asp-controller="Home" asp-action="Solutions">@Localizer["NavSolutions"]</a>
+                </li>
+                <li>
+                    <!-- Language Dropdown -->
+                    @{
+                        var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+                        var currentCulture = requestCulture?.RequestCulture.UICulture.Name ?? "tr-TR";
+                        var currentCode = currentCulture == "en-GB" ? "gb" :
+                                          currentCulture == "en-US" ? "us" :
+                                          currentCulture.StartsWith("tr") ? "tr" :
+                                          currentCulture.StartsWith("fr") ? "fr" :
+                                          currentCulture.StartsWith("ko") ? "kr" :
+                                          currentCulture.StartsWith("ja") ? "jp" :
+                                          currentCulture.StartsWith("zh") ? "cn" : "tr";
+                    }
+                    <div class="lang-dropdown">
+                        <button class="lang-dropdown-toggle" aria-label="Select Language">
+                            <span class="fi fi-@currentCode current-flag"></span>
+                            <svg class="dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="currentColor">
+                                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                            </svg>
+                        </button>
+                        <div class="lang-dropdown-menu">
+                            <a href="javascript:void(0)" onclick="setLanguage('tr-TR')" class="lang-option @(currentCulture == "tr-TR" ? "active" : "")">
+                                <span class="fi fi-tr flag"></span><span class="lang-name">Türkçe</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('en-GB')" class="lang-option @(currentCulture == "en-GB" ? "active" : "")">
+                                <span class="fi fi-gb flag"></span><span class="lang-name">English (UK)</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('en-US')" class="lang-option @(currentCulture == "en-US" ? "active" : "")">
+                                <span class="fi fi-us flag"></span><span class="lang-name">English (US)</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('fr-FR')" class="lang-option @(currentCulture == "fr-FR" ? "active" : "")">
+                                <span class="fi fi-fr flag"></span><span class="lang-name">Français</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('ko-KR')" class="lang-option @(currentCulture == "ko-KR" ? "active" : "")">
+                                <span class="fi fi-kr flag"></span><span class="lang-name">한국어</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('ja-JP')" class="lang-option @(currentCulture == "ja-JP" ? "active" : "")">
+                                <span class="fi fi-jp flag"></span><span class="lang-name">日本語</span>
+                            </a>
+                            <a href="javascript:void(0)" onclick="setLanguage('zh-CN')" class="lang-option @(currentCulture == "zh-CN" ? "active" : "")">
+                                <span class="fi fi-cn flag"></span><span class="lang-name">中文</span>
+                            </a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-cta">
-                    <a class="btn btn-primary" asp-controller="Home" asp-action="Contact">İletişim</a>
+                    <a class="btn btn-primary" asp-controller="Home" asp-action="Contact">@Localizer["NavContact"]</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="navbar-overlay" id="navbarOverlay"></div>
 
     <!-- Main Content -->
     <main>
@@ -71,38 +124,38 @@
                 <!-- Brand Column -->
                 <div class="footer-brand">
                     <img src="~/images/logo-dark.png" alt="Tailcode" style="height: 60px; width: auto;" />
-                    <p>Hazır kalıplar değil, size uyan yazılımlar. Kurumların ve ekiplerin kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için çözümler üretiyoruz.</p>
+                    <p>@Localizer["FooterDescription"]</p>
                 </div>
                 
                 <!-- Quick Links -->
                 <div>
-                    <h4 class="footer-title">Hızlı Linkler</h4>
+                    <h4 class="footer-title">@Localizer["FooterQuickLinks"]</h4>
                     <ul class="footer-links">
-                        <li><a asp-controller="Home" asp-action="Index">Ana Sayfa</a></li>
-                        <li><a asp-controller="Home" asp-action="About">Hakkımızda</a></li>
-                        <li><a asp-controller="Home" asp-action="Services">Hizmetler</a></li>
-                        <li><a asp-controller="Home" asp-action="Solutions">Çözümlerimiz</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">@Localizer["NavHome"]</a></li>
+                        <li><a asp-controller="Home" asp-action="About">@Localizer["NavAbout"]</a></li>
+                        <li><a asp-controller="Home" asp-action="Services">@Localizer["NavServices"]</a></li>
+                        <li><a asp-controller="Home" asp-action="Solutions">@Localizer["NavSolutions"]</a></li>
                     </ul>
                 </div>
                 
                 <!-- Services -->
                 <div>
-                    <h4 class="footer-title">Hizmetlerimiz</h4>
+                    <h4 class="footer-title">@Localizer["FooterServices"]</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Kuruma Özel Yazılımlar</a></li>
-                        <li><a href="#">İş Akışı Çözümleri</a></li>
-                        <li><a href="#">Veri & Raporlama</a></li>
-                        <li><a href="#">Prototip & Doğrulama</a></li>
+                        <li><a href="#">@Localizer["ServiceCustomSoftware"]</a></li>
+                        <li><a href="#">@Localizer["ServiceWorkflow"]</a></li>
+                        <li><a href="#">@Localizer["ServiceDataReporting"]</a></li>
+                        <li><a href="#">@Localizer["ServicePrototype"]</a></li>
                     </ul>
                 </div>
                 
                 <!-- Contact & Social -->
                 <div>
-                    <h4 class="footer-title">İletişim</h4>
+                    <h4 class="footer-title">@Localizer["FooterContact"]</h4>
                     <ul class="footer-links">
-                        <li><a asp-controller="Home" asp-action="Contact">Bize Ulaşın</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">@Localizer["FooterContactUs"]</a></li>
                     </ul>
-                    <h4 class="footer-title" style="margin-top: 24px;">Sosyal Medya</h4>
+                    <h4 class="footer-title" style="margin-top: 24px;">@Localizer["FooterSocial"]</h4>
                     <div class="footer-social">
                         <a href="#" title="LinkedIn" aria-label="LinkedIn">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -124,14 +177,20 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; @DateTime.Now.Year Tailcode. Tüm hakları saklıdır.</p>
-                <p>Önce çözüm. Sonra ölçek.</p>
+                <p>&copy; @DateTime.Now.Year Tailcode. @Localizer["FooterRights"]</p>
+                <p>@Localizer["FooterSlogan"]</p>
             </div>
         </div>
     </footer>
 
     <!-- Scripts -->
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function setLanguage(culture) {
+            document.cookie = `.AspNetCore.Culture=c=${culture}|uic=${culture};path=/;max-age=31536000`;
+            location.reload();
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

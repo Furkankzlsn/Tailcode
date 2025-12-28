@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- ========== NAVIGATION ========== -->
+  <data name="NavHome" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="NavAbout" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="NavServices" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="NavSolutions" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="NavContact" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  
+  <!-- ========== FOOTER ========== -->
+  <data name="FooterQuickLinks" xml:space="preserve">
+    <value>快速链接</value>
+  </data>
+  <data name="FooterServices" xml:space="preserve">
+    <value>我们的服务</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="FooterSocial" xml:space="preserve">
+    <value>社交媒体</value>
+  </data>
+  <data name="FooterContactUs" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="FooterRights" xml:space="preserve">
+    <value>版权所有。</value>
+  </data>
+  <data name="FooterSlogan" xml:space="preserve">
+    <value>先解决问题，再扩大规模。</value>
+  </data>
+  <data name="FooterDescription" xml:space="preserve">
+    <value>不是现成的模板，而是适合您的软件。我们为组织和团队创建完美匹配其工作流程的软件解决方案。</value>
+  </data>
+  
+  <!-- ========== SERVICES ========== -->
+  <data name="ServiceCustomSoftware" xml:space="preserve">
+    <value>定制软件</value>
+  </data>
+  <data name="ServiceWorkflow" xml:space="preserve">
+    <value>工作流解决方案</value>
+  </data>
+  <data name="ServiceDataReporting" xml:space="preserve">
+    <value>数据与报告</value>
+  </data>
+  <data name="ServicePrototype" xml:space="preserve">
+    <value>原型与验证</value>
+  </data>
+  
+  <!-- ========== SERVICES PAGE ========== -->
+  <data name="ServicesPageTitle" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="ServicesPageHeading" xml:space="preserve">
+    <value>为您定制的解决方案</value>
+  </data>
+  <data name="ServicesPageDesc" xml:space="preserve">
+    <value>我们在四个主要领域提供专业知识，满足您组织的独特需求。</value>
+  </data>
+  <data name="Svc1Tagline" xml:space="preserve">
+    <value>专为您的组织构建的系统，与您的流程完美契合。</value>
+  </data>
+  <data name="Svc1Text" xml:space="preserve">
+    <value>现成软件可能不适合您组织的独特结构。在Tailcode，我们详细分析您的工作流程，从零开始设计您需要的系统。</value>
+  </data>
+  <data name="Svc1Item1" xml:space="preserve">
+    <value>内部管理系统</value>
+  </data>
+  <data name="Svc1Item2" xml:space="preserve">
+    <value>跨部门工作流解决方案</value>
+  </data>
+  <data name="Svc1Item3" xml:space="preserve">
+    <value>定制管理面板</value>
+  </data>
+  <data name="Svc1Item4" xml:space="preserve">
+    <value>权限和角色结构</value>
+  </data>
+  <data name="Svc1Item5" xml:space="preserve">
+    <value>部门模块</value>
+  </data>
+  <data name="Svc1Item6" xml:space="preserve">
+    <value>集成解决方案</value>
+  </data>
+  <data name="Svc2Tagline" xml:space="preserve">
+    <value>将手动流程数字化，提高效率。</value>
+  </data>
+  <data name="Svc2Text" xml:space="preserve">
+    <value>您是否使用Excel表格、邮件链和手动跟踪系统？将这些流程数字化，节省时间并减少错误。</value>
+  </data>
+  <data name="Svc2Item1" xml:space="preserve">
+    <value>任务和项目跟踪系统</value>
+  </data>
+  <data name="Svc2Item2" xml:space="preserve">
+    <value>会议和决策跟踪</value>
+  </data>
+  <data name="Svc2Item3" xml:space="preserve">
+    <value>流程映射和优化</value>
+  </data>
+  <data name="Svc2Item4" xml:space="preserve">
+    <value>手动工作数字化</value>
+  </data>
+  <data name="Svc2Item5" xml:space="preserve">
+    <value>审批和工作流自动化</value>
+  </data>
+  <data name="Svc2Item6" xml:space="preserve">
+    <value>通知和提醒系统</value>
+  </data>
+  <data name="Svc3Tagline" xml:space="preserve">
+    <value>让数据有意义，支持您的决策。</value>
+  </data>
+  <data name="Svc3Text" xml:space="preserve">
+    <value>您组织积累的数据是否有价值但分散？我们整合来自不同系统的数据，创建定制报告和管理仪表板。</value>
+  </data>
+  <data name="Svc3Item1" xml:space="preserve">
+    <value>定制报告系统</value>
+  </data>
+  <data name="Svc3Item2" xml:space="preserve">
+    <value>利用现有系统数据</value>
+  </data>
+  <data name="Svc3Item3" xml:space="preserve">
+    <value>Excel / Python / API数据处理</value>
+  </data>
+  <data name="Svc3Item4" xml:space="preserve">
+    <value>管理仪表板</value>
+  </data>
+  <data name="Svc3Item5" xml:space="preserve">
+    <value>KPI跟踪系统</value>
+  </data>
+  <data name="Svc3Item6" xml:space="preserve">
+    <value>数据可视化解决方案</value>
+  </data>
+  <data name="Svc4Tagline" xml:space="preserve">
+    <value>快速实现想法，投资前先测试。</value>
+  </data>
+  <data name="Svc4Text" xml:space="preserve">
+    <value>想在大规模投资前测试您的想法？我们通过快速原型验证您的概念，让您获得真实用户反馈。</value>
+  </data>
+  <data name="Svc4Item1" xml:space="preserve">
+    <value>快速可用原型</value>
+  </data>
+  <data name="Svc4Item2" xml:space="preserve">
+    <value>可点击的界面设计</value>
+  </data>
+  <data name="Svc4Item3" xml:space="preserve">
+    <value>使用模拟数据的真实场景</value>
+  </data>
+  <data name="Svc4Item4" xml:space="preserve">
+    <value>用户测试支持</value>
+  </data>
+  <data name="Svc4Item5" xml:space="preserve">
+    <value>概念验证</value>
+  </data>
+  <data name="Svc4Item6" xml:space="preserve">
+    <value>MVP开发</value>
+  </data>
+  <data name="ProcessSubtitle" xml:space="preserve">
+    <value>工作方法</value>
+  </data>
+  <data name="ProcessTitle" xml:space="preserve">
+    <value>我们的流程如何运作？</value>
+  </data>
+  <data name="ProcessText" xml:space="preserve">
+    <value>我们在每个项目中遵循五个基本步骤。</value>
+  </data>
+  <data name="Process1Title" xml:space="preserve">
+    <value>倾听与分析</value>
+  </data>
+  <data name="Process1Text" xml:space="preserve">
+    <value>深入了解您的需求、流程和当前问题。</value>
+  </data>
+  <data name="Process2Title" xml:space="preserve">
+    <value>框架设计</value>
+  </data>
+  <data name="Process2Text" xml:space="preserve">
+    <value>明确问题，定义解决方案范围和期望。</value>
+  </data>
+  <data name="Process3Title" xml:space="preserve">
+    <value>原型</value>
+  </data>
+  <data name="Process3Text" xml:space="preserve">
+    <value>通过可用的原型将想法具体化，获得快速反馈。</value>
+  </data>
+  <data name="Process4Title" xml:space="preserve">
+    <value>实施</value>
+  </data>
+  <data name="Process4Text" xml:space="preserve">
+    <value>基于批准的原型开发完整解决方案。</value>
+  </data>
+  <data name="Process5Title" xml:space="preserve">
+    <value>交付与文档</value>
+  </data>
+  <data name="Process5Text" xml:space="preserve">
+    <value>交付解决方案并提供用户指南和技术文档。</value>
+  </data>
+  <data name="ServicesCTA" xml:space="preserve">
+    <value>哪种服务适合您？</value>
+  </data>
+  <data name="ServicesCTAText" xml:space="preserve">
+    <value>让我们讨论您的需求，共同确定最佳解决方案。</value>
+  </data>
+  <data name="RequestMeeting" xml:space="preserve">
+    <value>预约会议</value>
+  </data>
+  
+  <!-- ========== HOME PAGE ========== -->
+  <data name="HomeTitle" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="HeroSlogan1" xml:space="preserve">
+    <value>不是现成的模板，</value>
+  </data>
+  <data name="HeroSlogan2" xml:space="preserve">
+    <value>而是适合您的软件。</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>我们为组织和团队创建完美匹配其独特工作流程的软件解决方案。</value>
+  </data>
+  <data name="HeroCTA" xml:space="preserve">
+    <value>与我们合作</value>
+  </data>
+  <data name="HeroSecondary" xml:space="preserve">
+    <value>我们的服务</value>
+  </data>
+  <data name="ProblemSubtitle" xml:space="preserve">
+    <value>问题所在</value>
+  </data>
+  <data name="ProblemTitle" xml:space="preserve">
+    <value>为什么现成软件不够用？</value>
+  </data>
+  <data name="ProblemText" xml:space="preserve">
+    <value>现成软件能满足组织70%的需求。但剩下的30%往往是最关键的部分。</value>
+  </data>
+  <data name="ProblemSolve" xml:space="preserve">
+    <value>Tailcode正是解决这30%的问题。</value>
+  </data>
+  <data name="ServicesSubtitle" xml:space="preserve">
+    <value>我们的服务</value>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>为您定制的解决方案</value>
+  </data>
+  <data name="ServicesText" xml:space="preserve">
+    <value>Tailcode在四个主要领域提供专业知识。</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>了解更多</value>
+  </data>
+  <data name="MethodologySubtitle" xml:space="preserve">
+    <value>方法论</value>
+  </data>
+  <data name="MethodologyTitle" xml:space="preserve">
+    <value>我们如何工作？</value>
+  </data>
+  <data name="Step1Title" xml:space="preserve">
+    <value>倾听</value>
+  </data>
+  <data name="Step1Text" xml:space="preserve">
+    <value>了解您的问题、期望和当前情况。</value>
+  </data>
+  <data name="Step2Title" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="Step2Text" xml:space="preserve">
+    <value>映射现有流程并识别瓶颈。</value>
+  </data>
+  <data name="Step3Title" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="Step3Text" xml:space="preserve">
+    <value>设计定制解决方案并创建原型。</value>
+  </data>
+  <data name="Step4Title" xml:space="preserve">
+    <value>实施</value>
+  </data>
+  <data name="Step4Text" xml:space="preserve">
+    <value>开发并交付批准的解决方案。</value>
+  </data>
+  <data name="Step5Title" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  <data name="Step5Text" xml:space="preserve">
+    <value>上线后的支持和改进始终可用。</value>
+  </data>
+  <data name="LimitsSubtitle" xml:space="preserve">
+    <value>明确的边界</value>
+  </data>
+  <data name="LimitsTitle" xml:space="preserve">
+    <value>Tailcode不做什么？</value>
+  </data>
+  <data name="LimitsText" xml:space="preserve">
+    <value>为了保持专注，我们明确定义不做的事情。</value>
+  </data>
+  <data name="CTATitle" xml:space="preserve">
+    <value>让我们讨论您的项目</value>
+  </data>
+  <data name="CTAText" xml:space="preserve">
+    <value>联系我们，讨论为您定制的解决方案。</value>
+  </data>
+  <data name="CTAButton" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  
+  <!-- ========== INDEX PAGE ADDITIONAL ========== -->
+  <data name="ProblemItem1" xml:space="preserve">
+    <value>干扰工作流程，给团队带来负担</value>
+  </data>
+  <data name="ProblemItem2" xml:space="preserve">
+    <value>产生手动解决方案和临时变通方法</value>
+  </data>
+  <data name="ProblemItem3" xml:space="preserve">
+    <value>导致效率低下和时间浪费</value>
+  </data>
+  <data name="ProblemItem4" xml:space="preserve">
+    <value>使报告和跟踪变得困难</value>
+  </data>
+  <data name="CriticalNeeds30Text" xml:space="preserve">
+    <value>现成系统无法满足</value>
+  </data>
+  <data name="CriticalNeeds30Strong" xml:space="preserve">
+    <value>关键需求</value>
+  </data>
+  <data name="ServiceCustomSoftwareDesc" xml:space="preserve">
+    <value>内部系统、跨部门工作流解决方案、定制面板和权限结构。</value>
+  </data>
+  <data name="ServiceWorkflowDesc" xml:space="preserve">
+    <value>任务和跟踪系统、会议管理、流程映射和手动工作数字化。</value>
+  </data>
+  <data name="ServiceDataReportingDesc" xml:space="preserve">
+    <value>定制报告、数据处理解决方案、Excel/Python/API集成和管理仪表板。</value>
+  </data>
+  <data name="ServicePrototypeDesc" xml:space="preserve">
+    <value>快速可用原型、可点击界面和经过真实场景测试的解决方案。</value>
+  </data>
+  <data name="ViewAllServices" xml:space="preserve">
+    <value>查看所有服务</value>
+  </data>
+  <data name="MethodologyText" xml:space="preserve">
+    <value>我们从理解问题开始，然后设计适合您的解决方案。</value>
+  </data>
+  <data name="LimitItem1" xml:space="preserve">
+    <value>我们不做面向所有人的网站</value>
+  </data>
+  <data name="LimitItem2" xml:space="preserve">
+    <value>我们不出售模板系统</value>
+  </data>
+  <data name="LimitItem3" xml:space="preserve">
+    <value>我们不接受"随便做点什么"的项目</value>
+  </data>
+  <data name="LimitItem4" xml:space="preserve">
+    <value>我们不接受没有明确问题的请求</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ========== -->
+  <data name="AboutTitle" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="AboutSubtitle" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="AboutHeading" xml:space="preserve">
+    <value>Tailcode是谁？</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>理解您的问题并创建定制解决方案的软件合作伙伴。</value>
+  </data>
+  <data name="WhatIsTitle" xml:space="preserve">
+    <value>什么是Tailcode？</value>
+  </data>
+  <data name="WhatIsText" xml:space="preserve">
+    <value>Tailcode是一家软件解决方案公司，成立的目的是让组织、团队和机构能够拥有完美匹配其工作流程的软件，而不必被迫适应现成的模板。</value>
+  </data>
+  <data name="NotAgency" xml:space="preserve">
+    <value>Tailcode不是软件代理机构。</value>
+  </data>
+  <data name="NotProduct" xml:space="preserve">
+    <value>Tailcode不是产品公司。</value>
+  </data>
+  <data name="NotEverything" xml:space="preserve">
+    <value>Tailcode不是"什么都做"的结构。</value>
+  </data>
+  <data name="IsPartner" xml:space="preserve">
+    <value>Tailcode是理解问题并创建定制解决方案的软件合作伙伴。</value>
+  </data>
+  <data name="VisionTitle" xml:space="preserve">
+    <value>愿景</value>
+  </data>
+  <data name="VisionText" xml:space="preserve">
+    <value>一个组织使用完美匹配其流程的软件工作的世界，技术是推动者而非障碍。</value>
+  </data>
+  <data name="MissionTitle" xml:space="preserve">
+    <value>使命</value>
+  </data>
+  <data name="MissionText" xml:space="preserve">
+    <value>理解现成解决方案无法覆盖的关键30%，并为此创建定制软件。</value>
+  </data>
+  <data name="TargetSubtitle" xml:space="preserve">
+    <value>目标客户</value>
+  </data>
+  <data name="TargetTitle" xml:space="preserve">
+    <value>我们与谁合作？</value>
+  </data>
+  <data name="TargetText" xml:space="preserve">
+    <value>Tailcode专注于特定的客户群体。我们为正确的需求创建解决方案，而不是为所有人。</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ADDITIONAL ========== -->
+  <data name="VisionMission" xml:space="preserve">
+    <value>愿景与使命</value>
+  </data>
+  <data name="WhyExist" xml:space="preserve">
+    <value>我们为什么存在？</value>
+  </data>
+  <data name="Target1Title" xml:space="preserve">
+    <value>有内部流程的组织</value>
+  </data>
+  <data name="Target1Desc" xml:space="preserve">
+    <value>需要复杂工作流程和多部门协调的组织。</value>
+  </data>
+  <data name="Target2Title" xml:space="preserve">
+    <value>对现有系统感到沮丧的团队</value>
+  </data>
+  <data name="Target2Desc" xml:space="preserve">
+    <value>由于现有软件的限制而不得不采用手动解决方案的团队。</value>
+  </data>
+  <data name="Target3Title" xml:space="preserve">
+    <value>想要定制的领导者</value>
+  </data>
+  <data name="Target3Desc" xml:space="preserve">
+    <value>了解组织独特需求并寻求定制解决方案的决策者。</value>
+  </data>
+  <data name="LimitItem1Desc" xml:space="preserve">
+    <value>我们不做通用网站开发。我们的重点是企业解决方案。</value>
+  </data>
+  <data name="LimitItem2Desc" xml:space="preserve">
+    <value>我们不提供现成模板或打包解决方案。每个项目都是定制设计的。</value>
+  </data>
+  <data name="LimitItem3Desc" xml:space="preserve">
+    <value>没有明确的问题定义，我们不会开始项目。</value>
+  </data>
+  <data name="LimitItem4Desc" xml:space="preserve">
+    <value>如果没有具体问题要解决，我们不会开始。</value>
+  </data>
+  <data name="LimitItem5" xml:space="preserve">
+    <value>我们不与产品竞争</value>
+  </data>
+  <data name="LimitItem5Desc" xml:space="preserve">
+    <value>我们不与Slack、Discord或OBS等通用产品竞争。</value>
+  </data>
+  <data name="WorkWithUs" xml:space="preserve">
+    <value>想与我们合作吗？</value>
+  </data>
+  <data name="WorkWithUsDesc" xml:space="preserve">
+    <value>让我们了解您组织的独特需求，共同创建解决方案。</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ========== -->
+  <data name="ContactTitle" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="ContactSubtitle" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="ContactHeading" xml:space="preserve">
+    <value>取得联系</value>
+  </data>
+  <data name="ContactDescription" xml:space="preserve">
+    <value>联系我们讨论您的项目或提出问题。</value>
+  </data>
+  <data name="FormName" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="FormEmail" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="FormSubject" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="FormVision" xml:space="preserve">
+    <value>项目愿景</value>
+  </data>
+  <data name="FormMessage" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="FormSend" xml:space="preserve">
+    <value>发送消息</value>
+  </data>
+  <data name="FormNamePlaceholder" xml:space="preserve">
+    <value>请输入您的姓名</value>
+  </data>
+  <data name="FormEmailPlaceholder" xml:space="preserve">
+    <value>example@email.com</value>
+  </data>
+  <data name="FormSubjectPlaceholder" xml:space="preserve">
+    <value>主题（可选）</value>
+  </data>
+  <data name="FormVisionPlaceholder" xml:space="preserve">
+    <value>简要描述您的项目愿景（可选）</value>
+  </data>
+  <data name="FormMessagePlaceholder" xml:space="preserve">
+    <value>请在这里写下您的消息...</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="ContactResponse" xml:space="preserve">
+    <value>响应时间</value>
+  </data>
+  <data name="ContactResponseText" xml:space="preserve">
+    <value>24小时内</value>
+  </data>
+  <data name="ContactMeeting" xml:space="preserve">
+    <value>首次会议</value>
+  </data>
+  <data name="ContactMeetingText" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ADDITIONAL ========== -->
+  <data name="SendMessage" xml:space="preserve">
+    <value>发送消息</value>
+  </data>
+  <data name="SendMessageDesc" xml:space="preserve">
+    <value>填写表格，我们会尽快回复您。</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>联系信息</value>
+  </data>
+  <data name="ContactResponseDesc" xml:space="preserve">
+    <value>我们通常在24小时内回复。</value>
+  </data>
+  <data name="ContactMeetingDesc" xml:space="preserve">
+    <value>我们从免费的探索通话开始。</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>常见问题</value>
+  </data>
+  <data name="FAQ1Q" xml:space="preserve">
+    <value>首次会议是否免费？</value>
+  </data>
+  <data name="FAQ1A" xml:space="preserve">
+    <value>是的，探索通话是免费的。</value>
+  </data>
+  <data name="FAQ2Q" xml:space="preserve">
+    <value>项目需要多长时间？</value>
+  </data>
+  <data name="FAQ2A" xml:space="preserve">
+    <value>取决于范围。原型需要2-4周，完整项目可能需要2-6个月。</value>
+  </data>
+  <data name="FAQ3Q" xml:space="preserve">
+    <value>你们是否远程工作？</value>
+  </data>
+  <data name="FAQ3A" xml:space="preserve">
+    <value>是的，我们可以远程处理所有项目。</value>
+  </data>
+  <data name="LetsStart" xml:space="preserve">
+    <value>让我们开始</value>
+  </data>
+  <data name="LetsStartDesc" xml:space="preserve">
+    <value>告诉我们您的项目，让我们一起创建解决方案。</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>发送中...</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ========== -->
+  <data name="SolutionsTitle" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="SolutionsSubtitle" xml:space="preserve">
+    <value>我们的解决方案</value>
+  </data>
+  <data name="SolutionsHeading" xml:space="preserve">
+    <value>我们解决什么问题？</value>
+  </data>
+  <data name="SolutionsDescription" xml:space="preserve">
+    <value>我们解决现成系统无法覆盖的关键30%。</value>
+  </data>
+  <data name="ReadySystems" xml:space="preserve">
+    <value>现成系统</value>
+  </data>
+  <data name="Covers" xml:space="preserve">
+    <value>覆盖这些</value>
+  </data>
+  <data name="CriticalNeeds" xml:space="preserve">
+    <value>关键需求</value>
+  </data>
+  <data name="NotCovered" xml:space="preserve">
+    <value>未被覆盖</value>
+  </data>
+  <data name="TailcodeSolves" xml:space="preserve">
+    <value>Tailcode解决这30%。</value>
+  </data>
+  <data name="ScenariosSubtitle" xml:space="preserve">
+    <value>示例场景</value>
+  </data>
+  <data name="ScenariosTitle" xml:space="preserve">
+    <value>如果这些情况听起来很熟悉...</value>
+  </data>
+  <data name="ScenariosText" xml:space="preserve">
+    <value>这些是Tailcode解决的典型问题。</value>
+  </data>
+  <data name="ResultsSubtitle" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="ResultsTitle" xml:space="preserve">
+    <value>您获得什么？</value>
+  </data>
+  <data name="ResultTime" xml:space="preserve">
+    <value>节省时间</value>
+  </data>
+  <data name="ResultConsistency" xml:space="preserve">
+    <value>一致性</value>
+  </data>
+  <data name="ResultVisibility" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="ResultFit" xml:space="preserve">
+    <value>完美匹配</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ADDITIONAL ========== -->
+  <data name="CoreProblem" xml:space="preserve">
+    <value>核心问题</value>
+  </data>
+  <data name="WhyNotEnough" xml:space="preserve">
+    <value>为什么现成系统不够用？</value>
+  </data>
+  <data name="This30Leads" xml:space="preserve">
+    <value>这30%导致：</value>
+  </data>
+  <data name="Sol1Item1" xml:space="preserve">
+    <value>干扰工作流程并拖慢进度</value>
+  </data>
+  <data name="Sol1Item2" xml:space="preserve">
+    <value>给团队带来额外工作负担</value>
+  </data>
+  <data name="Sol1Item3" xml:space="preserve">
+    <value>导致手动解决方案和临时变通</value>
+  </data>
+  <data name="Sol1Item4" xml:space="preserve">
+    <value>造成效率低下和不一致</value>
+  </data>
+  <data name="Sol1Item5" xml:space="preserve">
+    <value>使报告和决策变得困难</value>
+  </data>
+  <data name="Scenario1Title" xml:space="preserve">
+    <value>"我们用Excel跟踪一切"</value>
+  </data>
+  <data name="Scenario1Text" xml:space="preserve">
+    <value>您是否用Excel表格管理流程？数据分散，更新困难，报告是噩梦？</value>
+  </data>
+  <data name="Scenario1Solution" xml:space="preserve">
+    <value>我们创建定制的流程管理系统。</value>
+  </data>
+  <data name="Scenario2Title" xml:space="preserve">
+    <value>"我们在邮件链中迷失了"</value>
+  </data>
+  <data name="Scenario2Text" xml:space="preserve">
+    <value>审批流程、任务跟踪和沟通都通过邮件进行？谁做了什么，我们在哪里？</value>
+  </data>
+  <data name="Scenario2Solution" xml:space="preserve">
+    <value>我们建立集中式工作流平台。</value>
+  </data>
+  <data name="Scenario3Title" xml:space="preserve">
+    <value>"每个系统都单独运行"</value>
+  </data>
+  <data name="Scenario3Text" xml:space="preserve">
+    <value>使用不同的软件但它们之间没有集成？数据被重复输入？</value>
+  </data>
+  <data name="Scenario3Solution" xml:space="preserve">
+    <value>我们创建连接您系统的层。</value>
+  </data>
+  <data name="Scenario4Title" xml:space="preserve">
+    <value>"做一份报告要几个小时"</value>
+  </data>
+  <data name="Scenario4Text" xml:space="preserve">
+    <value>需要从不同来源收集数据来做管理报告？涉及手动计算？</value>
+  </data>
+  <data name="Scenario4Solution" xml:space="preserve">
+    <value>我们提供自动报告和仪表板解决方案。</value>
+  </data>
+  <data name="Scenario5Title" xml:space="preserve">
+    <value>"每个人都走不同的路"</value>
+  </data>
+  <data name="Scenario5Text" xml:space="preserve">
+    <value>有标准化流程但执行不一致？部门间协调困难？</value>
+  </data>
+  <data name="Scenario5Solution" xml:space="preserve">
+    <value>我们将标准工作流程数字化。</value>
+  </data>
+  <data name="Scenario6Title" xml:space="preserve">
+    <value>"我们有想法但无法测试"</value>
+  </data>
+  <data name="Scenario6Text" xml:space="preserve">
+    <value>有新流程或系统的想法？想在大规模投资前测试？</value>
+  </data>
+  <data name="Scenario6Solution" xml:space="preserve">
+    <value>我们通过快速原型将想法具体化。</value>
+  </data>
+  <data name="ApproachSubtitle" xml:space="preserve">
+    <value>我们的方法</value>
+  </data>
+  <data name="ApproachTitle" xml:space="preserve">
+    <value>我们如何解决问题？</value>
+  </data>
+  <data name="ApproachLead" xml:space="preserve">
+    <value>我们从"真正理解这个问题了吗？"这个问题开始每个项目。</value>
+  </data>
+  <data name="ApproachText1" xml:space="preserve">
+    <value>在提出解决方案之前完全理解问题是最重要的步骤。这就是为什么我们对每个项目进行详细分析、映射现有流程并与真实用户交谈。</value>
+  </data>
+  <data name="ApproachText2" xml:space="preserve">
+    <value>我们的目标不是"做软件"而是"解决问题"。这种差异直接影响最终解决方案的质量。</value>
+  </data>
+  <data name="ResultTimeDesc" xml:space="preserve">
+    <value>手动任务自动化，团队专注于核心工作。</value>
+  </data>
+  <data name="ResultConsistencyDesc" xml:space="preserve">
+    <value>标准流程减少错误，提高质量。</value>
+  </data>
+  <data name="ResultVisibilityDesc" xml:space="preserve">
+    <value>清晰的报告和仪表板支持数据驱动的决策。</value>
+  </data>
+  <data name="ResultFitDesc" xml:space="preserve">
+    <value>为您定制设计，完美适合您的工作流程。</value>
+  </data>
+  <data name="SolutionsCTAText" xml:space="preserve">
+    <value>分享您组织的流程挑战，让我们一起找到解决方案。</value>
+  </data>
+  
+  <!-- ========== COMMON ========== -->
+  <data name="YourProblem" xml:space="preserve">
+    <value>您有什么问题？</value>
+  </data>
+  <data name="TellProblem" xml:space="preserve">
+    <value>告诉我们您的问题</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+</root>

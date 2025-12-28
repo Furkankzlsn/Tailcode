@@ -1,15 +1,17 @@
 @model Tailcode.Models.ContactViewModel
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResource> Localizer
 @{
-    ViewData["Title"] = "İletişim";
+    ViewData["Title"] = Localizer["ContactTitle"];
 }
 
 <!-- Page Header -->
 <section class="page-header">
     <div class="container">
         <div class="page-header-content">
-            <span class="section-subtitle">İletişim</span>
-            <h1>Bize Ulaşın</h1>
-            <p>Projenizi konuşalım, sorularınızı cevaplayalım.</p>
+            <span class="section-subtitle">@Localizer["ContactSubtitle"]</span>
+            <h1>@Localizer["ContactHeading"]</h1>
+            <p>@Localizer["ContactDescription"]</p>
         </div>
     </div>
 </section>
@@ -20,44 +22,44 @@
         <div class="contact-grid">
             <!-- Contact Form -->
             <div data-animate>
-                <h2 style="margin-bottom: 8px;">Mesaj Gönderin</h2>
+                <h2 style="margin-bottom: 8px;">@Localizer["SendMessage"]</h2>
                 <p style="margin-bottom: 32px; color: var(--text-secondary);">
-                    Formu doldurun, en kısa sürede size dönüş yapalım.
+                    @Localizer["SendMessageDesc"]
                 </p>
                 
                 <form asp-action="Contact" method="post">
                     <div class="form-group">
-                        <label class="form-label" for="Ad">Ad Soyad *</label>
+                        <label class="form-label" for="Ad">@Localizer["FormName"] *</label>
                         <input type="text" class="form-control" id="Ad" name="Ad" 
-                               placeholder="Adınız ve soyadınız" required />
+                               placeholder="@Localizer["FormNamePlaceholder"]" required />
                     </div>
                     
                     <div class="form-group">
-                        <label class="form-label" for="Email">E-posta Adresi *</label>
+                        <label class="form-label" for="Email">@Localizer["FormEmail"] *</label>
                         <input type="email" class="form-control" id="Email" name="Email" 
-                               placeholder="ornek@sirket.com" required />
+                               placeholder="@Localizer["FormEmailPlaceholder"]" required />
                     </div>
                     
                     <div class="form-group">
-                        <label class="form-label" for="Konu">Konu</label>
+                        <label class="form-label" for="Konu">@Localizer["FormSubject"]</label>
                         <input type="text" class="form-control" id="Konu" name="Konu" 
-                               placeholder="Projenizin kısa başlığı" />
+                               placeholder="@Localizer["FormSubjectPlaceholder"]" />
                     </div>
                     
                     <div class="form-group">
-                        <label class="form-label" for="Vizyon">Proje Vizyonunuz</label>
+                        <label class="form-label" for="Vizyon">@Localizer["FormVision"]</label>
                         <textarea class="form-control" id="Vizyon" name="Vizyon" rows="3"
-                                  placeholder="Ne yapmak istiyorsunuz? Hangi problemi çözmek istiyorsunuz? (İsteğe bağlı)"></textarea>
+                                  placeholder="@Localizer["FormVisionPlaceholder"]"></textarea>
                     </div>
                     
                     <div class="form-group">
-                        <label class="form-label" for="Mesaj">Mesajınız *</label>
+                        <label class="form-label" for="Mesaj">@Localizer["FormMessage"] *</label>
                         <textarea class="form-control" id="Mesaj" name="Mesaj" rows="5"
-                                  placeholder="Detaylı mesajınız..." required></textarea>
+                                  placeholder="@Localizer["FormMessagePlaceholder"]" required></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary" style="width: 100%;">
-                        Mesajı Gönder
+                        @Localizer["FormSend"]
                     </button>
                 </form>
             </div>
@@ -65,12 +67,12 @@
             <!-- Contact Info -->
             <div data-animate>
                 <div class="contact-info">
-                    <h3 style="margin-bottom: 32px;">İletişim Bilgileri</h3>
+                    <h3 style="margin-bottom: 32px;">@Localizer["ContactInfo"]</h3>
                     
                     <div class="contact-item">
                         <div class="contact-icon">📧</div>
                         <div class="contact-details">
-                            <h4>E-posta</h4>
+                            <h4>@Localizer["ContactEmail"]</h4>
                             <p>info@tailcode.net</p>
                         </div>
                     </div>
@@ -78,22 +80,22 @@
                     <div class="contact-item">
                         <div class="contact-icon">💬</div>
                         <div class="contact-details">
-                            <h4>Yanıt Süresi</h4>
-                            <p>Genellikle 24 saat içinde dönüş yapıyoruz.</p>
+                            <h4>@Localizer["ContactResponse"]</h4>
+                            <p>@Localizer["ContactResponseDesc"]</p>
                         </div>
                     </div>
                     
                     <div class="contact-item">
                         <div class="contact-icon">🤝</div>
                         <div class="contact-details">
-                            <h4>İlk Görüşme</h4>
-                            <p>Ücretsiz keşif görüşmesi ile başlıyoruz.</p>
+                            <h4>@Localizer["ContactMeeting"]</h4>
+                            <p>@Localizer["ContactMeetingDesc"]</p>
                         </div>
                     </div>
                     
                     <hr style="border: none; border-top: 1px solid var(--border-color); margin: 32px 0;" />
                     
-                    <h4 style="margin-bottom: 16px;">Sosyal Medya</h4>
+                    <h4 style="margin-bottom: 16px;">@Localizer["FooterSocial"]</h4>
                     <div class="footer-social">
                         <a href="#" title="LinkedIn" aria-label="LinkedIn">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -115,32 +117,32 @@
                 
                 <!-- FAQ Mini -->
                 <div class="card" style="margin-top: 24px;">
-                    <h4 style="margin-bottom: 16px;">Sık Sorulan Sorular</h4>
+                    <h4 style="margin-bottom: 16px;">@Localizer["FAQ"]</h4>
                     
                     <div style="margin-bottom: 16px;">
                         <p style="font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">
-                            İlk görüşme ücretli mi?
+                            @Localizer["FAQ1Q"]
                         </p>
                         <p style="margin: 0; font-size: 0.9375rem;">
-                            Hayır, keşif görüşmesi ücretsizdir.
+                            @Localizer["FAQ1A"]
                         </p>
                     </div>
                     
                     <div style="margin-bottom: 16px;">
                         <p style="font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">
-                            Bir proje ne kadar sürer?
+                            @Localizer["FAQ2Q"]
                         </p>
                         <p style="margin: 0; font-size: 0.9375rem;">
-                            Kapsama göre değişir. Prototipler 2-4 hafta, tam projeler 2-6 ay sürebilir.
+                            @Localizer["FAQ2A"]
                         </p>
                     </div>
                     
                     <div>
                         <p style="font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">
-                            Uzaktan çalışıyor musunuz?
+                            @Localizer["FAQ3Q"]
                         </p>
                         <p style="margin: 0; font-size: 0.9375rem;">
-                            Evet, tüm projelerimizi uzaktan yürütebiliyoruz.
+                            @Localizer["FAQ3A"]
                         </p>
                     </div>
                 </div>
@@ -149,15 +151,15 @@
     </div>
 </section>
 
-<!-- Map or Additional CTA -->
+<!-- CTA Section -->
 <section class="section" style="background: var(--bg-secondary);">
     <div class="container">
         <div class="cta-section" style="background: var(--bg-tertiary);">
             <div class="cta-content" data-animate>
-                <h2 class="cta-title">Hemen Başlayalım</h2>
+                <h2 class="cta-title">@Localizer["LetsStart"]</h2>
                 <p class="cta-text">
-                    Projenizi anlatın, birlikte çözüm üretelim.<br />
-                    <strong style="color: var(--accent-green);">Önce çözüm. Sonra ölçek.</strong>
+                    @Localizer["LetsStartDesc"]<br />
+                    <strong style="color: var(--accent-green);">@Localizer["FooterSlogan"]</strong>
                 </p>
             </div>
         </div>
@@ -166,10 +168,9 @@
 
 @section Scripts {
     <script>
-        // Form submit handling with feedback
         document.querySelector('form').addEventListener('submit', function(e) {
             const submitBtn = this.querySelector('button[type="submit"]');
-            submitBtn.innerHTML = 'Gönderiliyor...';
+            submitBtn.innerHTML = '@Localizer["Sending"]';
             submitBtn.disabled = true;
         });
     </script>

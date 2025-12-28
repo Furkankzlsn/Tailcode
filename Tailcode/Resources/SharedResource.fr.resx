@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- ========== NAVIGATION ========== -->
+  <data name="NavHome" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="NavAbout" xml:space="preserve">
+    <value>À Propos</value>
+  </data>
+  <data name="NavServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="NavSolutions" xml:space="preserve">
+    <value>Solutions</value>
+  </data>
+  <data name="NavContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  
+  <!-- ========== FOOTER ========== -->
+  <data name="FooterQuickLinks" xml:space="preserve">
+    <value>Liens Rapides</value>
+  </data>
+  <data name="FooterServices" xml:space="preserve">
+    <value>Nos Services</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FooterSocial" xml:space="preserve">
+    <value>Réseaux Sociaux</value>
+  </data>
+  <data name="FooterContactUs" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="FooterRights" xml:space="preserve">
+    <value>Tous droits réservés.</value>
+  </data>
+  <data name="FooterSlogan" xml:space="preserve">
+    <value>D'abord la solution. Ensuite l'échelle.</value>
+  </data>
+  <data name="FooterDescription" xml:space="preserve">
+    <value>Pas de modèles prêts à l'emploi, mais des logiciels adaptés à vous. Nous créons des solutions pour que les organisations et les équipes disposent d'un logiciel parfaitement aligné sur leurs processus.</value>
+  </data>
+  
+  <!-- ========== SERVICES ========== -->
+  <data name="ServiceCustomSoftware" xml:space="preserve">
+    <value>Logiciel Sur Mesure</value>
+  </data>
+  <data name="ServiceWorkflow" xml:space="preserve">
+    <value>Solutions de Flux de Travail</value>
+  </data>
+  <data name="ServiceDataReporting" xml:space="preserve">
+    <value>Données &amp; Reporting</value>
+  </data>
+  <data name="ServicePrototype" xml:space="preserve">
+    <value>Prototype &amp; Validation</value>
+  </data>
+  
+  <!-- ========== SERVICES PAGE ========== -->
+  <data name="ServicesPageTitle" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ServicesPageHeading" xml:space="preserve">
+    <value>Solutions Personnalisées Pour Vous</value>
+  </data>
+  <data name="ServicesPageDesc" xml:space="preserve">
+    <value>Nous offrons notre expertise dans quatre domaines principaux, répondant aux besoins uniques de votre organisation.</value>
+  </data>
+  <data name="Svc1Tagline" xml:space="preserve">
+    <value>Systèmes construits exclusivement pour votre organisation, parfaitement alignés sur vos processus.</value>
+  </data>
+  <data name="Svc1Text" xml:space="preserve">
+    <value>Les logiciels du marché peuvent ne pas convenir à la structure unique de votre organisation. Chez Tailcode, nous analysons vos flux de travail en détail et concevons exactement le système dont vous avez besoin.</value>
+  </data>
+  <data name="Svc1Item1" xml:space="preserve">
+    <value>Systèmes de gestion interne</value>
+  </data>
+  <data name="Svc1Item2" xml:space="preserve">
+    <value>Solutions de flux inter-départements</value>
+  </data>
+  <data name="Svc1Item3" xml:space="preserve">
+    <value>Panneaux d'administration personnalisés</value>
+  </data>
+  <data name="Svc1Item4" xml:space="preserve">
+    <value>Structures d'autorisation et de rôles</value>
+  </data>
+  <data name="Svc1Item5" xml:space="preserve">
+    <value>Modules par département</value>
+  </data>
+  <data name="Svc1Item6" xml:space="preserve">
+    <value>Solutions d'intégration</value>
+  </data>
+  <data name="Svc2Tagline" xml:space="preserve">
+    <value>Numérisez les processus manuels, augmentez l'efficacité.</value>
+  </data>
+  <data name="Svc2Text" xml:space="preserve">
+    <value>Utilisez-vous des feuilles Excel, des chaînes d'e-mails et des systèmes de suivi manuels ? Numérisez ces processus pour gagner du temps et minimiser les erreurs.</value>
+  </data>
+  <data name="Svc2Item1" xml:space="preserve">
+    <value>Systèmes de suivi de tâches et projets</value>
+  </data>
+  <data name="Svc2Item2" xml:space="preserve">
+    <value>Suivi des réunions et décisions</value>
+  </data>
+  <data name="Svc2Item3" xml:space="preserve">
+    <value>Cartographie et optimisation des processus</value>
+  </data>
+  <data name="Svc2Item4" xml:space="preserve">
+    <value>Numérisation du travail manuel</value>
+  </data>
+  <data name="Svc2Item5" xml:space="preserve">
+    <value>Automatisation des approbations et workflows</value>
+  </data>
+  <data name="Svc2Item6" xml:space="preserve">
+    <value>Systèmes de notifications et rappels</value>
+  </data>
+  <data name="Svc3Tagline" xml:space="preserve">
+    <value>Donnez du sens à vos données, appuyez vos décisions.</value>
+  </data>
+  <data name="Svc3Text" xml:space="preserve">
+    <value>Les données accumulées dans votre organisation sont-elles précieuses mais dispersées ? Nous combinons les données de différents systèmes pour créer des rapports personnalisés et des tableaux de bord exécutifs.</value>
+  </data>
+  <data name="Svc3Item1" xml:space="preserve">
+    <value>Systèmes de reporting personnalisés</value>
+  </data>
+  <data name="Svc3Item2" xml:space="preserve">
+    <value>Exploitation des données systèmes existantes</value>
+  </data>
+  <data name="Svc3Item3" xml:space="preserve">
+    <value>Traitement des données Excel / Python / API</value>
+  </data>
+  <data name="Svc3Item4" xml:space="preserve">
+    <value>Tableaux de bord exécutifs</value>
+  </data>
+  <data name="Svc3Item5" xml:space="preserve">
+    <value>Systèmes de suivi KPI</value>
+  </data>
+  <data name="Svc3Item6" xml:space="preserve">
+    <value>Solutions de visualisation de données</value>
+  </data>
+  <data name="Svc4Tagline" xml:space="preserve">
+    <value>Concrétisez rapidement vos idées, testez avant d'investir.</value>
+  </data>
+  <data name="Svc4Text" xml:space="preserve">
+    <value>Vous voulez tester votre idée avant un gros investissement ? Nous validons votre concept en créant des prototypes rapides, vous permettant d'obtenir de vrais retours utilisateurs.</value>
+  </data>
+  <data name="Svc4Item1" xml:space="preserve">
+    <value>Prototypes fonctionnels rapides</value>
+  </data>
+  <data name="Svc4Item2" xml:space="preserve">
+    <value>Maquettes d'interface cliquables</value>
+  </data>
+  <data name="Svc4Item3" xml:space="preserve">
+    <value>Scénarios réels avec données fictives</value>
+  </data>
+  <data name="Svc4Item4" xml:space="preserve">
+    <value>Support aux tests utilisateurs</value>
+  </data>
+  <data name="Svc4Item5" xml:space="preserve">
+    <value>Validation de concept</value>
+  </data>
+  <data name="Svc4Item6" xml:space="preserve">
+    <value>Développement MVP</value>
+  </data>
+  <data name="ProcessSubtitle" xml:space="preserve">
+    <value>Méthodologie de Travail</value>
+  </data>
+  <data name="ProcessTitle" xml:space="preserve">
+    <value>Comment fonctionne notre processus ?</value>
+  </data>
+  <data name="ProcessText" xml:space="preserve">
+    <value>Nous suivons cinq étapes fondamentales dans chaque projet.</value>
+  </data>
+  <data name="Process1Title" xml:space="preserve">
+    <value>Écouter &amp; Analyser</value>
+  </data>
+  <data name="Process1Text" xml:space="preserve">
+    <value>Nous comprenons en profondeur vos besoins, processus et problèmes actuels.</value>
+  </data>
+  <data name="Process2Title" xml:space="preserve">
+    <value>Cadrage</value>
+  </data>
+  <data name="Process2Text" xml:space="preserve">
+    <value>Nous clarifions le problème, définissons le périmètre de la solution et les attentes.</value>
+  </data>
+  <data name="Process3Title" xml:space="preserve">
+    <value>Prototype</value>
+  </data>
+  <data name="Process3Text" xml:space="preserve">
+    <value>Nous concrétisons l'idée avec un prototype fonctionnel, obtenant un retour rapide.</value>
+  </data>
+  <data name="Process4Title" xml:space="preserve">
+    <value>Implémentation</value>
+  </data>
+  <data name="Process4Text" xml:space="preserve">
+    <value>Nous développons la solution complète basée sur le prototype approuvé.</value>
+  </data>
+  <data name="Process5Title" xml:space="preserve">
+    <value>Livraison &amp; Documentation</value>
+  </data>
+  <data name="Process5Text" xml:space="preserve">
+    <value>Nous livrons la solution et fournissons guides utilisateur et documentation technique.</value>
+  </data>
+  <data name="ServicesCTA" xml:space="preserve">
+    <value>Quel service vous convient ?</value>
+  </data>
+  <data name="ServicesCTAText" xml:space="preserve">
+    <value>Discutons de vos besoins et déterminons ensemble la meilleure solution.</value>
+  </data>
+  <data name="RequestMeeting" xml:space="preserve">
+    <value>Demander une Réunion</value>
+  </data>
+  
+  <!-- ========== HOME PAGE ========== -->
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="HeroSlogan1" xml:space="preserve">
+    <value>Pas de modèles prêts à l'emploi,</value>
+  </data>
+  <data name="HeroSlogan2" xml:space="preserve">
+    <value>un logiciel adapté à vous.</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>Nous créons des solutions pour que les organisations et les équipes disposent d'un logiciel parfaitement aligné sur leurs processus uniques.</value>
+  </data>
+  <data name="HeroCTA" xml:space="preserve">
+    <value>Travaillons Ensemble</value>
+  </data>
+  <data name="HeroSecondary" xml:space="preserve">
+    <value>Nos Services</value>
+  </data>
+  <data name="ProblemSubtitle" xml:space="preserve">
+    <value>Le Problème</value>
+  </data>
+  <data name="ProblemTitle" xml:space="preserve">
+    <value>Pourquoi les logiciels du marché ne suffisent pas ?</value>
+  </data>
+  <data name="ProblemText" xml:space="preserve">
+    <value>Les logiciels prêts à l'emploi couvrent 70% des besoins organisationnels. Mais les 30% restants sont souvent la partie la plus critique.</value>
+  </data>
+  <data name="ProblemSolve" xml:space="preserve">
+    <value>Tailcode résout exactement ces 30%.</value>
+  </data>
+  <data name="ServicesSubtitle" xml:space="preserve">
+    <value>Nos Services</value>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>Solutions personnalisées pour vous</value>
+  </data>
+  <data name="ServicesText" xml:space="preserve">
+    <value>Chez Tailcode, nous offrons notre expertise dans quatre domaines principaux.</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>En Savoir Plus</value>
+  </data>
+  <data name="MethodologySubtitle" xml:space="preserve">
+    <value>Méthodologie</value>
+  </data>
+  <data name="MethodologyTitle" xml:space="preserve">
+    <value>Comment travaillons-nous ?</value>
+  </data>
+  <data name="Step1Title" xml:space="preserve">
+    <value>Écouter</value>
+  </data>
+  <data name="Step1Text" xml:space="preserve">
+    <value>Nous comprenons votre problème, vos attentes et votre situation actuelle.</value>
+  </data>
+  <data name="Step2Title" xml:space="preserve">
+    <value>Analyser</value>
+  </data>
+  <data name="Step2Text" xml:space="preserve">
+    <value>Nous cartographions les processus existants et identifions les points de blocage.</value>
+  </data>
+  <data name="Step3Title" xml:space="preserve">
+    <value>Concevoir</value>
+  </data>
+  <data name="Step3Text" xml:space="preserve">
+    <value>Nous concevons des solutions sur mesure et créons des prototypes.</value>
+  </data>
+  <data name="Step4Title" xml:space="preserve">
+    <value>Implémenter</value>
+  </data>
+  <data name="Step4Text" xml:space="preserve">
+    <value>Nous développons et livrons la solution approuvée.</value>
+  </data>
+  <data name="Step5Title" xml:space="preserve">
+    <value>Accompagner</value>
+  </data>
+  <data name="Step5Text" xml:space="preserve">
+    <value>Support post-lancement et améliorations toujours disponibles.</value>
+  </data>
+  <data name="LimitsSubtitle" xml:space="preserve">
+    <value>Limites Claires</value>
+  </data>
+  <data name="LimitsTitle" xml:space="preserve">
+    <value>Ce que Tailcode ne fait pas ?</value>
+  </data>
+  <data name="LimitsText" xml:space="preserve">
+    <value>Pour rester concentrés, nous définissons clairement ce que nous ne faisons pas.</value>
+  </data>
+  <data name="CTATitle" xml:space="preserve">
+    <value>Discutons de votre projet</value>
+  </data>
+  <data name="CTAText" xml:space="preserve">
+    <value>Contactez-nous pour parler d'une solution sur mesure pour vous.</value>
+  </data>
+  <data name="CTAButton" xml:space="preserve">
+    <value>Nous Contacter</value>
+  </data>
+  
+  <!-- ========== INDEX PAGE ADDITIONAL ========== -->
+  <data name="ProblemItem1" xml:space="preserve">
+    <value>Perturbe le flux de travail et surcharge les équipes</value>
+  </data>
+  <data name="ProblemItem2" xml:space="preserve">
+    <value>Crée des solutions manuelles et des contournements temporaires</value>
+  </data>
+  <data name="ProblemItem3" xml:space="preserve">
+    <value>Cause inefficacité et perte de temps</value>
+  </data>
+  <data name="ProblemItem4" xml:space="preserve">
+    <value>Rend le reporting et le suivi difficiles</value>
+  </data>
+  <data name="CriticalNeeds30Text" xml:space="preserve">
+    <value>Les systèmes prêts à l'emploi ne couvrent pas</value>
+  </data>
+  <data name="CriticalNeeds30Strong" xml:space="preserve">
+    <value>les besoins critiques</value>
+  </data>
+  <data name="ServiceCustomSoftwareDesc" xml:space="preserve">
+    <value>Systèmes internes, solutions de flux inter-départements, panneaux personnalisés et structures d'autorisation.</value>
+  </data>
+  <data name="ServiceWorkflowDesc" xml:space="preserve">
+    <value>Systèmes de tâches et suivi, gestion de réunions, cartographie des processus et numérisation du travail manuel.</value>
+  </data>
+  <data name="ServiceDataReportingDesc" xml:space="preserve">
+    <value>Rapports personnalisés, solutions de traitement de données, intégrations Excel/Python/API et tableaux de bord exécutifs.</value>
+  </data>
+  <data name="ServicePrototypeDesc" xml:space="preserve">
+    <value>Prototypes fonctionnels rapides, interfaces cliquables et solutions testées avec des scénarios réels.</value>
+  </data>
+  <data name="ViewAllServices" xml:space="preserve">
+    <value>Voir Tous les Services</value>
+  </data>
+  <data name="MethodologyText" xml:space="preserve">
+    <value>Nous commençons par comprendre le problème, puis concevons une solution adaptée à vous.</value>
+  </data>
+  <data name="LimitItem1" xml:space="preserve">
+    <value>Nous ne faisons pas de sites web pour tout le monde</value>
+  </data>
+  <data name="LimitItem2" xml:space="preserve">
+    <value>Nous ne vendons pas de systèmes préfabriqués</value>
+  </data>
+  <data name="LimitItem3" xml:space="preserve">
+    <value>Nous n'acceptons pas les projets « faites quelque chose »</value>
+  </data>
+  <data name="LimitItem4" xml:space="preserve">
+    <value>Nous n'acceptons pas de demandes sans problème clair</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ========== -->
+  <data name="AboutTitle" xml:space="preserve">
+    <value>À Propos</value>
+  </data>
+  <data name="AboutSubtitle" xml:space="preserve">
+    <value>À Propos de Nous</value>
+  </data>
+  <data name="AboutHeading" xml:space="preserve">
+    <value>Qui est Tailcode ?</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>Un partenaire logiciel qui comprend votre problème et crée des solutions sur mesure.</value>
+  </data>
+  <data name="WhatIsTitle" xml:space="preserve">
+    <value>Qu'est-ce que Tailcode ?</value>
+  </data>
+  <data name="WhatIsText" xml:space="preserve">
+    <value>Tailcode est une entreprise de solutions logicielles fondée pour que les organisations, équipes et institutions puissent avoir un logiciel parfaitement aligné sur leurs flux de travail sans être contraints de s'adapter à des modèles prêts à l'emploi.</value>
+  </data>
+  <data name="NotAgency" xml:space="preserve">
+    <value>Tailcode n'est pas une agence logicielle.</value>
+  </data>
+  <data name="NotProduct" xml:space="preserve">
+    <value>Tailcode n'est pas une entreprise de produits.</value>
+  </data>
+  <data name="NotEverything" xml:space="preserve">
+    <value>Tailcode n'est pas une structure « nous faisons tout ».</value>
+  </data>
+  <data name="IsPartner" xml:space="preserve">
+    <value>Tailcode est un partenaire logiciel qui comprend le problème et crée des solutions sur mesure.</value>
+  </data>
+  <data name="VisionTitle" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="VisionText" xml:space="preserve">
+    <value>Un monde où les organisations travaillent avec un logiciel qui correspond parfaitement à leurs processus, où la technologie est un facilitateur, pas un obstacle.</value>
+  </data>
+  <data name="MissionTitle" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="MissionText" xml:space="preserve">
+    <value>Comprendre les 30% critiques que les solutions prêtes à l'emploi ne couvrent pas et créer des logiciels sur mesure pour cela.</value>
+  </data>
+  <data name="TargetSubtitle" xml:space="preserve">
+    <value>Client Cible</value>
+  </data>
+  <data name="TargetTitle" xml:space="preserve">
+    <value>Avec qui travaillons-nous ?</value>
+  </data>
+  <data name="TargetText" xml:space="preserve">
+    <value>Tailcode se concentre sur un profil client spécifique. Nous créons des solutions pour les bons besoins, pas pour tout le monde.</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ADDITIONAL ========== -->
+  <data name="VisionMission" xml:space="preserve">
+    <value>Vision &amp; Mission</value>
+  </data>
+  <data name="WhyExist" xml:space="preserve">
+    <value>Pourquoi existons-nous ?</value>
+  </data>
+  <data name="Target1Title" xml:space="preserve">
+    <value>Organisations avec processus internes</value>
+  </data>
+  <data name="Target1Desc" xml:space="preserve">
+    <value>Organisations nécessitant des flux de travail complexes et une coordination entre plusieurs départements.</value>
+  </data>
+  <data name="Target2Title" xml:space="preserve">
+    <value>Équipes frustrées par les systèmes existants</value>
+  </data>
+  <data name="Target2Desc" xml:space="preserve">
+    <value>Équipes recourant à des solutions manuelles en raison des limitations des logiciels existants.</value>
+  </data>
+  <data name="Target3Title" xml:space="preserve">
+    <value>Leaders qui veulent du sur-mesure</value>
+  </data>
+  <data name="Target3Desc" xml:space="preserve">
+    <value>Décideurs qui comprennent les besoins uniques de leur organisation et recherchent des solutions personnalisées.</value>
+  </data>
+  <data name="LimitItem1Desc" xml:space="preserve">
+    <value>Nous ne faisons pas de développement web généraliste. Notre focus est les solutions d'entreprise.</value>
+  </data>
+  <data name="LimitItem2Desc" xml:space="preserve">
+    <value>Nous n'offrons pas de modèles ou solutions packagées. Chaque projet est conçu sur mesure.</value>
+  </data>
+  <data name="LimitItem3Desc" xml:space="preserve">
+    <value>Nous ne démarrons pas un projet sans une définition claire du problème.</value>
+  </data>
+  <data name="LimitItem4Desc" xml:space="preserve">
+    <value>S'il n'y a pas de problème concret à résoudre, nous ne commençons pas.</value>
+  </data>
+  <data name="LimitItem5" xml:space="preserve">
+    <value>Nous ne concurrençons pas les produits</value>
+  </data>
+  <data name="LimitItem5Desc" xml:space="preserve">
+    <value>Nous ne concurrençons pas les produits génériques comme Slack, Discord ou OBS.</value>
+  </data>
+  <data name="WorkWithUs" xml:space="preserve">
+    <value>Voulez-vous travailler avec nous ?</value>
+  </data>
+  <data name="WorkWithUsDesc" xml:space="preserve">
+    <value>Laissez-nous comprendre les besoins uniques de votre organisation et créer une solution ensemble.</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ========== -->
+  <data name="ContactTitle" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ContactSubtitle" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ContactHeading" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="ContactDescription" xml:space="preserve">
+    <value>Contactez-nous pour discuter de votre projet ou poser des questions.</value>
+  </data>
+  <data name="FormName" xml:space="preserve">
+    <value>Nom Complet</value>
+  </data>
+  <data name="FormEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FormSubject" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="FormVision" xml:space="preserve">
+    <value>Vision de Votre Projet</value>
+  </data>
+  <data name="FormMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="FormSend" xml:space="preserve">
+    <value>Envoyer le Message</value>
+  </data>
+  <data name="FormNamePlaceholder" xml:space="preserve">
+    <value>Votre nom complet</value>
+  </data>
+  <data name="FormEmailPlaceholder" xml:space="preserve">
+    <value>exemple@email.com</value>
+  </data>
+  <data name="FormSubjectPlaceholder" xml:space="preserve">
+    <value>Sujet (optionnel)</value>
+  </data>
+  <data name="FormVisionPlaceholder" xml:space="preserve">
+    <value>Décrivez brièvement la vision de votre projet (optionnel)</value>
+  </data>
+  <data name="FormMessagePlaceholder" xml:space="preserve">
+    <value>Écrivez votre message ici...</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ContactResponse" xml:space="preserve">
+    <value>Temps de Réponse</value>
+  </data>
+  <data name="ContactResponseText" xml:space="preserve">
+    <value>Sous 24 heures</value>
+  </data>
+  <data name="ContactMeeting" xml:space="preserve">
+    <value>Première Réunion</value>
+  </data>
+  <data name="ContactMeetingText" xml:space="preserve">
+    <value>Gratuite</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ADDITIONAL ========== -->
+  <data name="SendMessage" xml:space="preserve">
+    <value>Envoyer un Message</value>
+  </data>
+  <data name="SendMessageDesc" xml:space="preserve">
+    <value>Remplissez le formulaire et nous vous répondrons dès que possible.</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Informations de Contact</value>
+  </data>
+  <data name="ContactResponseDesc" xml:space="preserve">
+    <value>Nous répondons généralement sous 24 heures.</value>
+  </data>
+  <data name="ContactMeetingDesc" xml:space="preserve">
+    <value>Nous commençons par un appel découverte gratuit.</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Questions Fréquentes</value>
+  </data>
+  <data name="FAQ1Q" xml:space="preserve">
+    <value>La première réunion est-elle gratuite ?</value>
+  </data>
+  <data name="FAQ1A" xml:space="preserve">
+    <value>Oui, l'appel découverte est gratuit.</value>
+  </data>
+  <data name="FAQ2Q" xml:space="preserve">
+    <value>Combien de temps dure un projet ?</value>
+  </data>
+  <data name="FAQ2A" xml:space="preserve">
+    <value>Cela dépend de la portée. Les prototypes prennent 2-4 semaines, les projets complets peuvent prendre 2-6 mois.</value>
+  </data>
+  <data name="FAQ3Q" xml:space="preserve">
+    <value>Travaillez-vous à distance ?</value>
+  </data>
+  <data name="FAQ3A" xml:space="preserve">
+    <value>Oui, nous pouvons gérer tous nos projets à distance.</value>
+  </data>
+  <data name="LetsStart" xml:space="preserve">
+    <value>Commençons</value>
+  </data>
+  <data name="LetsStartDesc" xml:space="preserve">
+    <value>Parlez-nous de votre projet, créons une solution ensemble.</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Envoi en cours...</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ========== -->
+  <data name="SolutionsTitle" xml:space="preserve">
+    <value>Solutions</value>
+  </data>
+  <data name="SolutionsSubtitle" xml:space="preserve">
+    <value>Nos Solutions</value>
+  </data>
+  <data name="SolutionsHeading" xml:space="preserve">
+    <value>Quels Problèmes Résolvons-Nous ?</value>
+  </data>
+  <data name="SolutionsDescription" xml:space="preserve">
+    <value>Nous répondons aux 30% critiques que les systèmes prêts à l'emploi ne couvrent pas.</value>
+  </data>
+  <data name="ReadySystems" xml:space="preserve">
+    <value>Les systèmes prêts à l'emploi</value>
+  </data>
+  <data name="Covers" xml:space="preserve">
+    <value>couvrent cela</value>
+  </data>
+  <data name="CriticalNeeds" xml:space="preserve">
+    <value>Besoins critiques</value>
+  </data>
+  <data name="NotCovered" xml:space="preserve">
+    <value>non couverts</value>
+  </data>
+  <data name="TailcodeSolves" xml:space="preserve">
+    <value>Tailcode résout ces 30%.</value>
+  </data>
+  <data name="ScenariosSubtitle" xml:space="preserve">
+    <value>Exemples de Scénarios</value>
+  </data>
+  <data name="ScenariosTitle" xml:space="preserve">
+    <value>Si ces situations vous semblent familières...</value>
+  </data>
+  <data name="ScenariosText" xml:space="preserve">
+    <value>Voici des problèmes typiques que Tailcode résout.</value>
+  </data>
+  <data name="ResultsSubtitle" xml:space="preserve">
+    <value>Résultats</value>
+  </data>
+  <data name="ResultsTitle" xml:space="preserve">
+    <value>Qu'obtenez-vous ?</value>
+  </data>
+  <data name="ResultTime" xml:space="preserve">
+    <value>Gain de Temps</value>
+  </data>
+  <data name="ResultConsistency" xml:space="preserve">
+    <value>Cohérence</value>
+  </data>
+  <data name="ResultVisibility" xml:space="preserve">
+    <value>Visibilité</value>
+  </data>
+  <data name="ResultFit" xml:space="preserve">
+    <value>Adaptation Parfaite</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ADDITIONAL ========== -->
+  <data name="CoreProblem" xml:space="preserve">
+    <value>Le Problème Central</value>
+  </data>
+  <data name="WhyNotEnough" xml:space="preserve">
+    <value>Pourquoi les systèmes prêts à l'emploi ne suffisent pas ?</value>
+  </data>
+  <data name="This30Leads" xml:space="preserve">
+    <value>Ces 30% conduisent à :</value>
+  </data>
+  <data name="Sol1Item1" xml:space="preserve">
+    <value>Perturbe le flux de travail et ralentit les processus</value>
+  </data>
+  <data name="Sol1Item2" xml:space="preserve">
+    <value>Crée une charge de travail supplémentaire pour les équipes</value>
+  </data>
+  <data name="Sol1Item3" xml:space="preserve">
+    <value>Résulte en solutions manuelles et contournements temporaires</value>
+  </data>
+  <data name="Sol1Item4" xml:space="preserve">
+    <value>Cause inefficacité et incohérence</value>
+  </data>
+  <data name="Sol1Item5" xml:space="preserve">
+    <value>Rend le reporting et la prise de décision difficiles</value>
+  </data>
+  <data name="Scenario1Title" xml:space="preserve">
+    <value>« Nous suivons tout dans Excel »</value>
+  </data>
+  <data name="Scenario1Text" xml:space="preserve">
+    <value>Gérez-vous des processus dans des feuilles Excel ? Données éparpillées, mises à jour difficiles et reporting cauchemardesque ?</value>
+  </data>
+  <data name="Scenario1Solution" xml:space="preserve">
+    <value>Nous créons un système de gestion de processus sur mesure.</value>
+  </data>
+  <data name="Scenario2Title" xml:space="preserve">
+    <value>« Nous sommes perdus dans les chaînes d'emails »</value>
+  </data>
+  <data name="Scenario2Text" xml:space="preserve">
+    <value>Les processus d'approbation, le suivi des tâches et la communication passent par email ? Qui a fait quoi, où en sommes-nous ?</value>
+  </data>
+  <data name="Scenario2Solution" xml:space="preserve">
+    <value>Nous mettons en place une plateforme de workflow centralisée.</value>
+  </data>
+  <data name="Scenario3Title" xml:space="preserve">
+    <value>« Chaque système fonctionne séparément »</value>
+  </data>
+  <data name="Scenario3Text" xml:space="preserve">
+    <value>Utilisez différents logiciels mais pas d'intégration entre eux ? Les données sont saisies à répétition ?</value>
+  </data>
+  <data name="Scenario3Solution" xml:space="preserve">
+    <value>Nous créons une couche qui connecte vos systèmes.</value>
+  </data>
+  <data name="Scenario4Title" xml:space="preserve">
+    <value>« Obtenir un rapport prend des heures »</value>
+  </data>
+  <data name="Scenario4Text" xml:space="preserve">
+    <value>Besoin de collecter des données de différentes sources pour les rapports de direction ? Calculs manuels impliqués ?</value>
+  </data>
+  <data name="Scenario4Solution" xml:space="preserve">
+    <value>Nous fournissons des solutions de reporting automatique et tableaux de bord.</value>
+  </data>
+  <data name="Scenario5Title" xml:space="preserve">
+    <value>« Chacun suit un chemin différent »</value>
+  </data>
+  <data name="Scenario5Text" xml:space="preserve">
+    <value>Avez des processus standardisés mais une mise en œuvre incohérente ? Coordination inter-départements difficile ?</value>
+  </data>
+  <data name="Scenario5Solution" xml:space="preserve">
+    <value>Nous numérisons les flux de travail standards.</value>
+  </data>
+  <data name="Scenario6Title" xml:space="preserve">
+    <value>« Nous avons une idée mais ne pouvons pas la tester »</value>
+  </data>
+  <data name="Scenario6Text" xml:space="preserve">
+    <value>Avez une idée pour un nouveau processus ou système ? Voulez la tester avant un gros investissement ?</value>
+  </data>
+  <data name="Scenario6Solution" xml:space="preserve">
+    <value>Nous concrétisons les idées avec des prototypes rapides.</value>
+  </data>
+  <data name="ApproachSubtitle" xml:space="preserve">
+    <value>Notre Approche</value>
+  </data>
+  <data name="ApproachTitle" xml:space="preserve">
+    <value>Comment abordons-nous les problèmes ?</value>
+  </data>
+  <data name="ApproachLead" xml:space="preserve">
+    <value>Nous démarrons chaque projet avec la question « Comprenons-nous vraiment ce problème ? »</value>
+  </data>
+  <data name="ApproachText1" xml:space="preserve">
+    <value>Comprendre pleinement le problème avant de proposer une solution est l'étape la plus importante. C'est pourquoi nous menons une analyse détaillée, cartographions les processus existants et parlons aux vrais utilisateurs pour chaque projet.</value>
+  </data>
+  <data name="ApproachText2" xml:space="preserve">
+    <value>Notre objectif n'est pas « faire du logiciel » mais « résoudre un problème ». Cette différence affecte directement la qualité de la solution obtenue.</value>
+  </data>
+  <data name="ResultTimeDesc" xml:space="preserve">
+    <value>Les tâches manuelles sont automatisées, les équipes se concentrent sur leur cœur de métier.</value>
+  </data>
+  <data name="ResultConsistencyDesc" xml:space="preserve">
+    <value>Les processus standards réduisent les erreurs et augmentent la qualité.</value>
+  </data>
+  <data name="ResultVisibilityDesc" xml:space="preserve">
+    <value>Rapports clairs et tableaux de bord pour des décisions basées sur les données.</value>
+  </data>
+  <data name="ResultFitDesc" xml:space="preserve">
+    <value>Conçu sur mesure pour vous, s'adapte parfaitement à votre flux de travail.</value>
+  </data>
+  <data name="SolutionsCTAText" xml:space="preserve">
+    <value>Partagez les défis de processus de votre organisation, trouvons une solution ensemble.</value>
+  </data>
+  
+  <!-- ========== COMMON ========== -->
+  <data name="YourProblem" xml:space="preserve">
+    <value>Quel est votre problème ?</value>
+  </data>
+  <data name="TellProblem" xml:space="preserve">
+    <value>Décrivez-nous Votre Problème</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Sélectionner la Langue</value>
+  </data>
+</root>

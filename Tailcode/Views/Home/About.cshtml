@@ -1,14 +1,16 @@
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResource> Localizer
 @{
-    ViewData["Title"] = "Hakkımızda";
+    ViewData["Title"] = Localizer["AboutTitle"];
 }
 
 <!-- Page Header -->
 <section class="page-header">
     <div class="container">
         <div class="page-header-content">
-            <span class="section-subtitle">Hakkımızda</span>
-            <h1>Tailcode Kimdir?</h1>
-            <p>Problemi anlayan ve ona özel çözüm üreten bir yazılım ortağı.</p>
+            <span class="section-subtitle">@Localizer["AboutSubtitle"]</span>
+            <h1>@Localizer["AboutHeading"]</h1>
+            <p>@Localizer["AboutDescription"]</p>
         </div>
     </div>
 </section>
@@ -18,16 +20,16 @@
     <div class="container">
         <div class="about-grid">
             <div data-animate>
-                <h2>Tailcode Nedir?</h2>
+                <h2>@Localizer["WhatIsTitle"]</h2>
                 <p class="lead">
-                    Tailcode; kurumların, ekiplerin ve organizasyonların hazır yazılım kalıplarına uymak zorunda kalmadan, kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için kurulan bir yazılım çözüm şirketidir.
+                    @Localizer["WhatIsText"]
                 </p>
                 <div style="margin-top: 32px; padding: 24px; background: var(--bg-secondary); border-radius: var(--radius-md); border-left: 4px solid var(--accent-blue);">
-                    <p style="margin: 0 0 12px; color: var(--text-secondary);">Tailcode bir yazılım ajansı değildir.</p>
-                    <p style="margin: 0 0 12px; color: var(--text-secondary);">Tailcode bir ürün şirketi değildir.</p>
-                    <p style="margin: 0 0 12px; color: var(--text-secondary);">Tailcode bir "her şeyi yaparız" yapısı değildir.</p>
+                    <p style="margin: 0 0 12px; color: var(--text-secondary);">@Localizer["NotAgency"]</p>
+                    <p style="margin: 0 0 12px; color: var(--text-secondary);">@Localizer["NotProduct"]</p>
+                    <p style="margin: 0 0 12px; color: var(--text-secondary);">@Localizer["NotEverything"]</p>
                     <p style="margin: 0; color: var(--accent-green); font-weight: 600;">
-                        Tailcode, <strong>problemi anlayan ve ona özel çözüm üreten</strong> bir yazılım ortağıdır.
+                        @Localizer["IsPartner"]
                     </p>
                 </div>
             </div>
@@ -36,7 +38,7 @@
                     <img src="~/images/logo-icon-dark.png" alt="Tailcode" style="width: 150px; margin-bottom: 24px;" />
                     <h3 style="margin-bottom: 8px;">tailcode</h3>
                     <p class="gradient-text" style="font-size: 1.125rem; font-style: italic; margin: 0;">
-                        Hazır kalıplar değil, size uyan yazılımlar.
+                        @Localizer["HeroSlogan1"] @Localizer["HeroSlogan2"]
                     </p>
                 </div>
             </div>
@@ -48,23 +50,23 @@
 <section class="section" style="background: var(--bg-secondary);">
     <div class="container">
         <div class="section-header" data-animate>
-            <span class="section-subtitle">Vizyon & Misyon</span>
-            <h2>Neden varız?</h2>
+            <span class="section-subtitle">@Localizer["VisionMission"]</span>
+            <h2>@Localizer["WhyExist"]</h2>
         </div>
         
         <div class="value-grid" style="max-width: 800px; margin: 0 auto;">
             <div class="value-item" data-animate>
                 <div class="value-icon">🎯</div>
-                <h3>Vizyon</h3>
+                <h3>@Localizer["VisionTitle"]</h3>
                 <p style="font-size: 1.25rem; font-weight: 500; color: var(--accent-blue);">
-                    Önce çözüm.<br />Sonra ölçek.
+                    @Localizer["FooterSlogan"]
                 </p>
             </div>
             <div class="value-item" data-animate>
                 <div class="value-icon">💡</div>
-                <h3>Misyon</h3>
+                <h3>@Localizer["MissionTitle"]</h3>
                 <p style="color: var(--text-secondary);">
-                    Kurumların hazır yazılım kalıplarına sığmayan kritik %30'luk ihtiyaçlarını anlamak ve çözmek.
+                    @Localizer["MissionText"]
                 </p>
             </div>
         </div>
@@ -76,10 +78,10 @@
     <div class="container">
         <div class="about-grid">
             <div data-animate>
-                <span class="section-subtitle">Hedef Müşteri</span>
-                <h2>Kimlerle çalışıyoruz?</h2>
+                <span class="section-subtitle">@Localizer["TargetSubtitle"]</span>
+                <h2>@Localizer["TargetTitle"]</h2>
                 <p class="lead">
-                    Tailcode, belirli bir müşteri profiline odaklanır. Herkes için değil, doğru ihtiyaçlar için çözüm üretiriz.
+                    @Localizer["TargetText"]
                 </p>
             </div>
             <div data-animate>
@@ -87,9 +89,9 @@
                     <div style="display: flex; align-items: center; gap: 16px;">
                         <span style="font-size: 2rem;">🏛️</span>
                         <div>
-                            <h4 style="margin: 0 0 4px;">Kurum içi süreçleri olan yapılar</h4>
+                            <h4 style="margin: 0 0 4px;">@Localizer["Target1Title"]</h4>
                             <p style="margin: 0; color: var(--text-secondary); font-size: 0.9375rem;">
-                                Karmaşık iş akışları ve birden fazla birim arasında koordinasyon gerektiren organizasyonlar.
+                                @Localizer["Target1Desc"]
                             </p>
                         </div>
                     </div>
@@ -99,9 +101,9 @@
                     <div style="display: flex; align-items: center; gap: 16px;">
                         <span style="font-size: 2rem;">😤</span>
                         <div>
-                            <h4 style="margin: 0 0 4px;">Hazır sistemlerden yorulmuş ekipler</h4>
+                            <h4 style="margin: 0 0 4px;">@Localizer["Target2Title"]</h4>
                             <p style="margin: 0; color: var(--text-secondary); font-size: 0.9375rem;">
-                                Mevcut yazılımların eksikliklerinden dolayı manuel çözümlere başvuran takımlar.
+                                @Localizer["Target2Desc"]
                             </p>
                         </div>
                     </div>
@@ -111,9 +113,9 @@
                     <div style="display: flex; align-items: center; gap: 16px;">
                         <span style="font-size: 2rem;">👔</span>
                         <div>
-                            <h4 style="margin: 0 0 4px;">"Bize özel olsun" diyen yöneticiler</h4>
+                            <h4 style="margin: 0 0 4px;">@Localizer["Target3Title"]</h4>
                             <p style="margin: 0; color: var(--text-secondary); font-size: 0.9375rem;">
-                                Kurumun benzersiz ihtiyaçlarını anlayan ve özel çözüm arayan karar vericiler.
+                                @Localizer["Target3Desc"]
                             </p>
                         </div>
                     </div>
@@ -127,35 +129,35 @@
 <section class="section" style="background: var(--bg-secondary);">
     <div class="container">
         <div class="section-header" data-animate>
-            <span class="section-subtitle">Net Sınırlar</span>
-            <h2>Tailcode ne yapmaz?</h2>
-            <p>Odaklanmak için ne olmadığımızı da net bir şekilde tanımlarız.</p>
+            <span class="section-subtitle">@Localizer["LimitsSubtitle"]</span>
+            <h2>@Localizer["LimitsTitle"]</h2>
+            <p>@Localizer["LimitsText"]</p>
         </div>
         
         <div class="card-grid" style="max-width: 1000px; margin: 0 auto;">
             <div class="card" data-animate>
-                <h4 style="color: var(--accent-yellow);">✗ Herkese web sitesi yapmaz</h4>
-                <p class="card-text">Genel amaçlı web sitesi geliştirme işi yapmıyoruz. Odağımız kurumsal çözümler.</p>
+                <h4 style="color: var(--accent-yellow);">✗ @Localizer["LimitItem1"]</h4>
+                <p class="card-text">@Localizer["LimitItem1Desc"]</p>
             </div>
             
             <div class="card" data-animate>
-                <h4 style="color: var(--accent-yellow);">✗ Template sistemler satmaz</h4>
-                <p class="card-text">Hazır şablonlar veya paket çözümler sunmuyoruz. Her proje size özel tasarlanır.</p>
+                <h4 style="color: var(--accent-yellow);">✗ @Localizer["LimitItem2"]</h4>
+                <p class="card-text">@Localizer["LimitItem2Desc"]</p>
             </div>
             
             <div class="card" data-animate>
-                <h4 style="color: var(--accent-yellow);">✗ "Bir şeyler olsun" projelerine girmez</h4>
-                <p class="card-text">Net bir problem tanımı olmadan projeye başlamıyoruz.</p>
+                <h4 style="color: var(--accent-yellow);">✗ @Localizer["LimitItem3"]</h4>
+                <p class="card-text">@Localizer["LimitItem3Desc"]</p>
             </div>
             
             <div class="card" data-animate>
-                <h4 style="color: var(--accent-yellow);">✗ Net problemi olmayan talepleri kabul etmez</h4>
-                <p class="card-text">Çözülecek somut bir problem yoksa, başlamıyoruz.</p>
+                <h4 style="color: var(--accent-yellow);">✗ @Localizer["LimitItem4"]</h4>
+                <p class="card-text">@Localizer["LimitItem4Desc"]</p>
             </div>
             
             <div class="card" data-animate>
-                <h4 style="color: var(--accent-yellow);">✗ Ürün rekabetine girmez</h4>
-                <p class="card-text">Slack, Discord, OBS gibi genel amaçlı ürünlerle rekabet etmiyoruz.</p>
+                <h4 style="color: var(--accent-yellow);">✗ @Localizer["LimitItem5"]</h4>
+                <p class="card-text">@Localizer["LimitItem5Desc"]</p>
             </div>
         </div>
     </div>
@@ -165,12 +167,12 @@
 <section class="section">
     <div class="cta-section">
         <div class="cta-content" data-animate>
-            <h2 class="cta-title">Bizimle çalışmak ister misiniz?</h2>
+            <h2 class="cta-title">@Localizer["WorkWithUs"]</h2>
             <p class="cta-text">
-                Kurumunuzun özel ihtiyaçlarını anlayalım ve birlikte çözüm üretelim.
+                @Localizer["WorkWithUsDesc"]
             </p>
             <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">
-                İletişime Geç
+                @Localizer["CTAButton"]
             </a>
         </div>
     </div>

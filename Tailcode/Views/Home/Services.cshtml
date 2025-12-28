@@ -1,14 +1,16 @@
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResource> Localizer
 @{
-    ViewData["Title"] = "Hizmetler";
+    ViewData["Title"] = Localizer["ServicesPageTitle"];
 }
 
 <!-- Page Header -->
 <section class="page-header">
     <div class="container">
         <div class="page-header-content">
-            <span class="section-subtitle">Hizmetler</span>
-            <h1>Size Özel Çözümler</h1>
-            <p>Dört ana alanda uzmanlık sunuyor, kurumunuzun benzersiz ihtiyaçlarına cevap veriyoruz.</p>
+            <span class="section-subtitle">@Localizer["ServicesSubtitle"]</span>
+            <h1>@Localizer["ServicesPageHeading"]</h1>
+            <p>@Localizer["ServicesPageDesc"]</p>
         </div>
     </div>
 </section>
@@ -20,24 +22,22 @@
             <div class="service-header">
                 <div class="service-icon">🏢</div>
                 <div>
-                    <h2 style="margin-bottom: 8px;">Kuruma Özel Yazılımlar</h2>
+                    <h2 style="margin-bottom: 8px;">@Localizer["ServiceCustomSoftware"]</h2>
                     <p style="margin: 0; color: var(--text-secondary);">
-                        Sadece sizin kurumunuza ait, iş süreçlerinize birebir uyan sistemler.
+                        @Localizer["Svc1Tagline"]
                     </p>
                 </div>
             </div>
             <p>
-                Hazır yazılımların sunduğu genel çözümler, kurumunuzun özgün yapısına uymayabilir. 
-                Tailcode olarak, iş akışlarınızı detaylı analiz ediyor ve tam olarak ihtiyacınız olan 
-                sistemi sıfırdan tasarlıyoruz.
+                @Localizer["Svc1Text"]
             </p>
             <div class="service-list">
-                <div class="service-list-item">Kurum içi yönetim sistemleri</div>
-                <div class="service-list-item">Birimler arası iş akışı çözümleri</div>
-                <div class="service-list-item">Özel yönetim panelleri</div>
-                <div class="service-list-item">Yetkilendirme ve rol bazlı yapılar</div>
-                <div class="service-list-item">Departman bazlı modüller</div>
-                <div class="service-list-item">Entegrasyon çözümleri</div>
+                <div class="service-list-item">@Localizer["Svc1Item1"]</div>
+                <div class="service-list-item">@Localizer["Svc1Item2"]</div>
+                <div class="service-list-item">@Localizer["Svc1Item3"]</div>
+                <div class="service-list-item">@Localizer["Svc1Item4"]</div>
+                <div class="service-list-item">@Localizer["Svc1Item5"]</div>
+                <div class="service-list-item">@Localizer["Svc1Item6"]</div>
             </div>
         </div>
     </div>
@@ -50,23 +50,22 @@
             <div class="service-header">
                 <div class="service-icon">⚙️</div>
                 <div>
-                    <h2 style="margin-bottom: 8px;">İş Akışı ve Süreç Çözümleri</h2>
+                    <h2 style="margin-bottom: 8px;">@Localizer["ServiceWorkflow"]</h2>
                     <p style="margin: 0; color: var(--text-secondary);">
-                        Manuel süreçleri dijitalleştirin, verimliliği artırın.
+                        @Localizer["Svc2Tagline"]
                     </p>
                 </div>
             </div>
             <p>
-                Excel tabloları, e-posta zincirleri ve manuel takip sistemleri mi kullanıyorsunuz? 
-                Bu süreçleri dijitalleştirerek hem zaman kazanın hem de hata oranını minimize edin.
+                @Localizer["Svc2Text"]
             </p>
             <div class="service-list">
-                <div class="service-list-item">Görev ve proje takip sistemleri</div>
-                <div class="service-list-item">Toplantı ve karar takibi</div>
-                <div class="service-list-item">Süreç haritalama ve optimizasyon</div>
-                <div class="service-list-item">Manuel işlerin dijitalleştirilmesi</div>
-                <div class="service-list-item">Onay ve iş akışı otomasyonu</div>
-                <div class="service-list-item">Bildirim ve hatırlatma sistemleri</div>
+                <div class="service-list-item">@Localizer["Svc2Item1"]</div>
+                <div class="service-list-item">@Localizer["Svc2Item2"]</div>
+                <div class="service-list-item">@Localizer["Svc2Item3"]</div>
+                <div class="service-list-item">@Localizer["Svc2Item4"]</div>
+                <div class="service-list-item">@Localizer["Svc2Item5"]</div>
+                <div class="service-list-item">@Localizer["Svc2Item6"]</div>
             </div>
         </div>
     </div>
@@ -79,23 +78,22 @@
             <div class="service-header">
                 <div class="service-icon">📊</div>
                 <div>
-                    <h2 style="margin-bottom: 8px;">Veri & Raporlama Çözümleri</h2>
+                    <h2 style="margin-bottom: 8px;">@Localizer["ServiceDataReporting"]</h2>
                     <p style="margin: 0; color: var(--text-secondary);">
-                        Verilerinizi anlamlı hale getirin, kararlarınızı destekleyin.
+                        @Localizer["Svc3Tagline"]
                     </p>
                 </div>
             </div>
             <p>
-                Kurumunuzda biriken veriler değerli ama dağınık mı? Farklı sistemlerden gelen verileri 
-                birleştirerek size özel raporlar ve yönetici panelleri oluşturuyoruz.
+                @Localizer["Svc3Text"]
             </p>
             <div class="service-list">
-                <div class="service-list-item">Kuruma özel rapor sistemleri</div>
-                <div class="service-list-item">Hazır sistemlerin verisini anlamlı hale getirme</div>
-                <div class="service-list-item">Excel / Python / API tabanlı veri işleme</div>
-                <div class="service-list-item">Yönetici dashboard'ları</div>
-                <div class="service-list-item">KPI takip sistemleri</div>
-                <div class="service-list-item">Veri görselleştirme çözümleri</div>
+                <div class="service-list-item">@Localizer["Svc3Item1"]</div>
+                <div class="service-list-item">@Localizer["Svc3Item2"]</div>
+                <div class="service-list-item">@Localizer["Svc3Item3"]</div>
+                <div class="service-list-item">@Localizer["Svc3Item4"]</div>
+                <div class="service-list-item">@Localizer["Svc3Item5"]</div>
+                <div class="service-list-item">@Localizer["Svc3Item6"]</div>
             </div>
         </div>
     </div>
@@ -108,23 +106,22 @@
             <div class="service-header">
                 <div class="service-icon">🚀</div>
                 <div>
-                    <h2 style="margin-bottom: 8px;">Prototip & Doğrulama</h2>
+                    <h2 style="margin-bottom: 8px;">@Localizer["ServicePrototype"]</h2>
                     <p style="margin: 0; color: var(--text-secondary);">
-                        Fikri hızla somutlaştırın, yatırım yapmadan önce test edin.
+                        @Localizer["Svc4Tagline"]
                     </p>
                 </div>
             </div>
             <p>
-                Büyük yatırım yapmadan önce fikrinizi test etmek mi istiyorsunuz? Hızlı prototipler 
-                oluşturarak konseptinizi doğruluyor, gerçek kullanıcı geri bildirimi almanızı sağlıyoruz.
+                @Localizer["Svc4Text"]
             </p>
             <div class="service-list">
-                <div class="service-list-item">Hızlı çalışan prototipler</div>
-                <div class="service-list-item">Tıklanabilir arayüz tasarımları</div>
-                <div class="service-list-item">Fake data ile gerçek senaryolar</div>
-                <div class="service-list-item">Kullanıcı testi desteği</div>
-                <div class="service-list-item">Konsept doğrulama</div>
-                <div class="service-list-item">MVP geliştirme</div>
+                <div class="service-list-item">@Localizer["Svc4Item1"]</div>
+                <div class="service-list-item">@Localizer["Svc4Item2"]</div>
+                <div class="service-list-item">@Localizer["Svc4Item3"]</div>
+                <div class="service-list-item">@Localizer["Svc4Item4"]</div>
+                <div class="service-list-item">@Localizer["Svc4Item5"]</div>
+                <div class="service-list-item">@Localizer["Svc4Item6"]</div>
             </div>
         </div>
     </div>
@@ -134,40 +131,40 @@
 <section class="section">
     <div class="container">
         <div class="section-header" data-animate>
-            <span class="section-subtitle">Çalışma Metodolojisi</span>
-            <h2>Sürecimiz nasıl işler?</h2>
-            <p>Her projede beş temel adımı takip ediyoruz.</p>
+            <span class="section-subtitle">@Localizer["ProcessSubtitle"]</span>
+            <h2>@Localizer["ProcessTitle"]</h2>
+            <p>@Localizer["ProcessText"]</p>
         </div>
         
         <div class="process-grid">
             <div class="process-item" data-animate>
                 <div class="process-number">1</div>
-                <h4 class="process-title">Dinleme & Analiz</h4>
-                <p class="process-text">İhtiyaçlarınızı, süreçlerinizi ve mevcut sorunları derinlemesine anlıyoruz.</p>
+                <h4 class="process-title">@Localizer["Process1Title"]</h4>
+                <p class="process-text">@Localizer["Process1Text"]</p>
             </div>
             
             <div class="process-item" data-animate>
                 <div class="process-number">2</div>
-                <h4 class="process-title">Çerçeveleme</h4>
-                <p class="process-text">Problemi netleştiriyor, çözüm kapsamını ve beklentileri belirliyoruz.</p>
+                <h4 class="process-title">@Localizer["Process2Title"]</h4>
+                <p class="process-text">@Localizer["Process2Text"]</p>
             </div>
             
             <div class="process-item" data-animate>
                 <div class="process-number">3</div>
-                <h4 class="process-title">Prototip</h4>
-                <p class="process-text">Çalışan bir prototiple fikri somutlaştırıyor, hızlı geri bildirim alıyoruz.</p>
+                <h4 class="process-title">@Localizer["Process3Title"]</h4>
+                <p class="process-text">@Localizer["Process3Text"]</p>
             </div>
             
             <div class="process-item" data-animate>
                 <div class="process-number">4</div>
-                <h4 class="process-title">Uygulama</h4>
-                <p class="process-text">Onaylanan prototip üzerinden tam çözümü geliştiriyoruz.</p>
+                <h4 class="process-title">@Localizer["Process4Title"]</h4>
+                <p class="process-text">@Localizer["Process4Text"]</p>
             </div>
             
             <div class="process-item" data-animate>
                 <div class="process-number">5</div>
-                <h4 class="process-title">Teslim & Dokümantasyon</h4>
-                <p class="process-text">Çözümü teslim ediyor, kullanım kılavuzunu ve teknik dokümanları sağlıyoruz.</p>
+                <h4 class="process-title">@Localizer["Process5Title"]</h4>
+                <p class="process-text">@Localizer["Process5Text"]</p>
             </div>
         </div>
     </div>
@@ -177,12 +174,12 @@
 <section class="section" style="background: var(--bg-secondary);">
     <div class="cta-section" style="background: var(--bg-tertiary);">
         <div class="cta-content" data-animate>
-            <h2 class="cta-title">Hangi hizmet size uygun?</h2>
+            <h2 class="cta-title">@Localizer["ServicesCTA"]</h2>
             <p class="cta-text">
-                İhtiyaçlarınızı konuşalım ve size en uygun çözümü birlikte belirleyelim.
+                @Localizer["ServicesCTAText"]
             </p>
             <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">
-                Görüşme Talep Et
+                @Localizer["RequestMeeting"]
             </a>
         </div>
     </div>

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- ========== NAVIGATION ========== -->
+  <data name="NavHome" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="NavAbout" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="NavServices" xml:space="preserve">
+    <value>Hizmetler</value>
+  </data>
+  <data name="NavSolutions" xml:space="preserve">
+    <value>Çözümlerimiz</value>
+  </data>
+  <data name="NavContact" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  
+  <!-- ========== FOOTER ========== -->
+  <data name="FooterQuickLinks" xml:space="preserve">
+    <value>Hızlı Linkler</value>
+  </data>
+  <data name="FooterServices" xml:space="preserve">
+    <value>Hizmetlerimiz</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="FooterSocial" xml:space="preserve">
+    <value>Sosyal Medya</value>
+  </data>
+  <data name="FooterContactUs" xml:space="preserve">
+    <value>Bize Ulaşın</value>
+  </data>
+  <data name="FooterRights" xml:space="preserve">
+    <value>Tüm hakları saklıdır.</value>
+  </data>
+  <data name="FooterSlogan" xml:space="preserve">
+    <value>Önce çözüm. Sonra ölçek.</value>
+  </data>
+  <data name="FooterDescription" xml:space="preserve">
+    <value>Hazır kalıplar değil, size uyan yazılımlar. Kurumların ve ekiplerin kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için çözümler üretiyoruz.</value>
+  </data>
+  
+  <!-- ========== SERVICES ========== -->
+  <data name="ServiceCustomSoftware" xml:space="preserve">
+    <value>Kuruma Özel Yazılımlar</value>
+  </data>
+  <data name="ServiceWorkflow" xml:space="preserve">
+    <value>İş Akışı Çözümleri</value>
+  </data>
+  <data name="ServiceDataReporting" xml:space="preserve">
+    <value>Veri &amp; Raporlama</value>
+  </data>
+  <data name="ServicePrototype" xml:space="preserve">
+    <value>Prototip &amp; Doğrulama</value>
+  </data>
+  
+  <!-- ========== SERVICES PAGE ========== -->
+  <data name="ServicesPageTitle" xml:space="preserve">
+    <value>Hizmetler</value>
+  </data>
+  <data name="ServicesPageHeading" xml:space="preserve">
+    <value>Size Özel Çözümler</value>
+  </data>
+  <data name="ServicesPageDesc" xml:space="preserve">
+    <value>Dört ana alanda uzmanlık sunuyor, kurumunuzun benzersiz ihtiyaçlarına cevap veriyoruz.</value>
+  </data>
+  <data name="Svc1Tagline" xml:space="preserve">
+    <value>Sadece sizin kurumunuza ait, iş süreçlerinize birebir uyan sistemler.</value>
+  </data>
+  <data name="Svc1Text" xml:space="preserve">
+    <value>Hazır yazılımların sunduğu genel çözümler, kurumunuzun özgün yapısına uymayabilir. Tailcode olarak, iş akışlarınızı detaylı analiz ediyor ve tam olarak ihtiyacınız olan sistemi sıfırdan tasarlıyoruz.</value>
+  </data>
+  <data name="Svc1Item1" xml:space="preserve">
+    <value>Kurum içi yönetim sistemleri</value>
+  </data>
+  <data name="Svc1Item2" xml:space="preserve">
+    <value>Birimler arası iş akışı çözümleri</value>
+  </data>
+  <data name="Svc1Item3" xml:space="preserve">
+    <value>Özel yönetim panelleri</value>
+  </data>
+  <data name="Svc1Item4" xml:space="preserve">
+    <value>Yetkilendirme ve rol bazlı yapılar</value>
+  </data>
+  <data name="Svc1Item5" xml:space="preserve">
+    <value>Departman bazlı modüller</value>
+  </data>
+  <data name="Svc1Item6" xml:space="preserve">
+    <value>Entegrasyon çözümleri</value>
+  </data>
+  <data name="Svc2Tagline" xml:space="preserve">
+    <value>Manuel süreçleri dijitalleştirin, verimliliği artırın.</value>
+  </data>
+  <data name="Svc2Text" xml:space="preserve">
+    <value>Excel tabloları, e-posta zincirleri ve manuel takip sistemleri mi kullanıyorsunuz? Bu süreçleri dijitalleştirerek hem zaman kazanın hem de hata oranını minimize edin.</value>
+  </data>
+  <data name="Svc2Item1" xml:space="preserve">
+    <value>Görev ve proje takip sistemleri</value>
+  </data>
+  <data name="Svc2Item2" xml:space="preserve">
+    <value>Toplantı ve karar takibi</value>
+  </data>
+  <data name="Svc2Item3" xml:space="preserve">
+    <value>Süreç haritalama ve optimizasyon</value>
+  </data>
+  <data name="Svc2Item4" xml:space="preserve">
+    <value>Manuel işlerin dijitalleştirilmesi</value>
+  </data>
+  <data name="Svc2Item5" xml:space="preserve">
+    <value>Onay ve iş akışı otomasyonu</value>
+  </data>
+  <data name="Svc2Item6" xml:space="preserve">
+    <value>Bildirim ve hatırlatma sistemleri</value>
+  </data>
+  <data name="Svc3Tagline" xml:space="preserve">
+    <value>Verilerinizi anlamlı hale getirin, kararlarınızı destekleyin.</value>
+  </data>
+  <data name="Svc3Text" xml:space="preserve">
+    <value>Kurumunuzda biriken veriler değerli ama dağınık mı? Farklı sistemlerden gelen verileri birleştirerek size özel raporlar ve yönetici panelleri oluşturuyoruz.</value>
+  </data>
+  <data name="Svc3Item1" xml:space="preserve">
+    <value>Kuruma özel rapor sistemleri</value>
+  </data>
+  <data name="Svc3Item2" xml:space="preserve">
+    <value>Hazır sistemlerin verisini anlamlı hale getirme</value>
+  </data>
+  <data name="Svc3Item3" xml:space="preserve">
+    <value>Excel / Python / API tabanlı veri işleme</value>
+  </data>
+  <data name="Svc3Item4" xml:space="preserve">
+    <value>Yönetici dashboard'ları</value>
+  </data>
+  <data name="Svc3Item5" xml:space="preserve">
+    <value>KPI takip sistemleri</value>
+  </data>
+  <data name="Svc3Item6" xml:space="preserve">
+    <value>Veri görselleştirme çözümleri</value>
+  </data>
+  <data name="Svc4Tagline" xml:space="preserve">
+    <value>Fikri hızla somutlaştırın, yatırım yapmadan önce test edin.</value>
+  </data>
+  <data name="Svc4Text" xml:space="preserve">
+    <value>Büyük yatırım yapmadan önce fikrinizi test etmek mi istiyorsunuz? Hızlı prototipler oluşturarak konseptinizi doğruluyor, gerçek kullanıcı geri bildirimi almanızı sağlıyoruz.</value>
+  </data>
+  <data name="Svc4Item1" xml:space="preserve">
+    <value>Hızlı çalışan prototipler</value>
+  </data>
+  <data name="Svc4Item2" xml:space="preserve">
+    <value>Tıklanabilir arayüz tasarımları</value>
+  </data>
+  <data name="Svc4Item3" xml:space="preserve">
+    <value>Fake data ile gerçek senaryolar</value>
+  </data>
+  <data name="Svc4Item4" xml:space="preserve">
+    <value>Kullanıcı testi desteği</value>
+  </data>
+  <data name="Svc4Item5" xml:space="preserve">
+    <value>Konsept doğrulama</value>
+  </data>
+  <data name="Svc4Item6" xml:space="preserve">
+    <value>MVP geliştirme</value>
+  </data>
+  <data name="ProcessSubtitle" xml:space="preserve">
+    <value>Çalışma Metodolojisi</value>
+  </data>
+  <data name="ProcessTitle" xml:space="preserve">
+    <value>Sürecimiz nasıl işler?</value>
+  </data>
+  <data name="ProcessText" xml:space="preserve">
+    <value>Her projede beş temel adımı takip ediyoruz.</value>
+  </data>
+  <data name="Process1Title" xml:space="preserve">
+    <value>Dinleme &amp; Analiz</value>
+  </data>
+  <data name="Process1Text" xml:space="preserve">
+    <value>İhtiyaçlarınızı, süreçlerinizi ve mevcut sorunları derinlemesine anlıyoruz.</value>
+  </data>
+  <data name="Process2Title" xml:space="preserve">
+    <value>Çerçeveleme</value>
+  </data>
+  <data name="Process2Text" xml:space="preserve">
+    <value>Problemi netleştiriyor, çözüm kapsamını ve beklentileri belirliyoruz.</value>
+  </data>
+  <data name="Process3Title" xml:space="preserve">
+    <value>Prototip</value>
+  </data>
+  <data name="Process3Text" xml:space="preserve">
+    <value>Çalışan bir prototiple fikri somutlaştırıyor, hızlı geri bildirim alıyoruz.</value>
+  </data>
+  <data name="Process4Title" xml:space="preserve">
+    <value>Uygulama</value>
+  </data>
+  <data name="Process4Text" xml:space="preserve">
+    <value>Onaylanan prototip üzerinden tam çözümü geliştiriyoruz.</value>
+  </data>
+  <data name="Process5Title" xml:space="preserve">
+    <value>Teslim &amp; Dokümantasyon</value>
+  </data>
+  <data name="Process5Text" xml:space="preserve">
+    <value>Çözümü teslim ediyor, kullanım kılavuzunu ve teknik dokümanları sağlıyoruz.</value>
+  </data>
+  <data name="ServicesCTA" xml:space="preserve">
+    <value>Hangi hizmet size uygun?</value>
+  </data>
+  <data name="ServicesCTAText" xml:space="preserve">
+    <value>İhtiyaçlarınızı konuşalım ve size en uygun çözümü birlikte belirleyelim.</value>
+  </data>
+  <data name="RequestMeeting" xml:space="preserve">
+    <value>Görüşme Talep Et</value>
+  </data>
+  
+  <!-- ========== HOME PAGE ========== -->
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="HeroSlogan1" xml:space="preserve">
+    <value>Hazır kalıplar değil,</value>
+  </data>
+  <data name="HeroSlogan2" xml:space="preserve">
+    <value>size uyan yazılımlar.</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>Kurumların ve ekiplerin kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için çözümler üretiyoruz.</value>
+  </data>
+  <data name="HeroCTA" xml:space="preserve">
+    <value>Bizimle Çalışın</value>
+  </data>
+  <data name="HeroSecondary" xml:space="preserve">
+    <value>Hizmetlerimiz</value>
+  </data>
+  <data name="ProblemSubtitle" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="ProblemTitle" xml:space="preserve">
+    <value>Hazır yazılımlar neden yetmiyor?</value>
+  </data>
+  <data name="ProblemText" xml:space="preserve">
+    <value>Hazır yazılımlar kurumların %70 ihtiyacını karşılar. Ama kalan %30, genellikle işin en kritik kısmıdır.</value>
+  </data>
+  <data name="ProblemSolve" xml:space="preserve">
+    <value>Tailcode, tam olarak bu %30'luk alanı çözer.</value>
+  </data>
+  <data name="ServicesSubtitle" xml:space="preserve">
+    <value>Hizmetlerimiz</value>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>Size özel çözümler sunuyoruz</value>
+  </data>
+  <data name="ServicesText" xml:space="preserve">
+    <value>Tailcode olarak dört ana alanda uzmanlık sunuyoruz.</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Daha Fazla</value>
+  </data>
+  <data name="MethodologySubtitle" xml:space="preserve">
+    <value>Metodoloji</value>
+  </data>
+  <data name="MethodologyTitle" xml:space="preserve">
+    <value>Nasıl çalışıyoruz?</value>
+  </data>
+  <data name="Step1Title" xml:space="preserve">
+    <value>Dinleme</value>
+  </data>
+  <data name="Step1Text" xml:space="preserve">
+    <value>Probleminizi, beklentilerinizi ve mevcut durumu anlıyoruz.</value>
+  </data>
+  <data name="Step2Title" xml:space="preserve">
+    <value>Analiz</value>
+  </data>
+  <data name="Step2Text" xml:space="preserve">
+    <value>Mevcut süreçleri haritalıyor, darboğazları tespit ediyoruz.</value>
+  </data>
+  <data name="Step3Title" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="Step3Text" xml:space="preserve">
+    <value>Size özel çözümü tasarlıyor, prototipler oluşturuyoruz.</value>
+  </data>
+  <data name="Step4Title" xml:space="preserve">
+    <value>Uygulama</value>
+  </data>
+  <data name="Step4Text" xml:space="preserve">
+    <value>Onaylanan çözümü geliştiriyor ve teslim ediyoruz.</value>
+  </data>
+  <data name="Step5Title" xml:space="preserve">
+    <value>Destek</value>
+  </data>
+  <data name="Step5Text" xml:space="preserve">
+    <value>Lansman sonrası destek ve geliştirmeler için yanınızdayız.</value>
+  </data>
+  <data name="LimitsSubtitle" xml:space="preserve">
+    <value>Net Sınırlar</value>
+  </data>
+  <data name="LimitsTitle" xml:space="preserve">
+    <value>Tailcode ne yapmaz?</value>
+  </data>
+  <data name="LimitsText" xml:space="preserve">
+    <value>Odaklanmak için ne yapmadığımızı da net bir şekilde tanımlıyoruz.</value>
+  </data>
+  <data name="CTATitle" xml:space="preserve">
+    <value>Projenizi konuşalım</value>
+  </data>
+  <data name="CTAText" xml:space="preserve">
+    <value>Size özel çözüm hakkında konuşmak için bize ulaşın.</value>
+  </data>
+  <data name="CTAButton" xml:space="preserve">
+    <value>İletişime Geçin</value>
+  </data>
+  
+  <!-- ========== INDEX PAGE ADDITIONAL ========== -->
+  <data name="ProblemItem1" xml:space="preserve">
+    <value>İş akışını bozar ve ekiplere yük olur</value>
+  </data>
+  <data name="ProblemItem2" xml:space="preserve">
+    <value>Manuel çözümler ve geçici çareler doğurur</value>
+  </data>
+  <data name="ProblemItem3" xml:space="preserve">
+    <value>Verimsizlik ve zaman kaybı yaratır</value>
+  </data>
+  <data name="ProblemItem4" xml:space="preserve">
+    <value>Raporlama ve takip zorlaşır</value>
+  </data>
+  <data name="CriticalNeeds30Text" xml:space="preserve">
+    <value>Hazır sistemlerin karşılamadığı</value>
+  </data>
+  <data name="CriticalNeeds30Strong" xml:space="preserve">
+    <value>kritik ihtiyaçlar</value>
+  </data>
+  <data name="ServiceCustomSoftwareDesc" xml:space="preserve">
+    <value>Kurum içi sistemler, birimler arası iş akışı çözümleri, özel paneller ve yetkilendirme yapıları.</value>
+  </data>
+  <data name="ServiceWorkflowDesc" xml:space="preserve">
+    <value>Görev ve takip sistemleri, toplantı yönetimi, süreç haritalama ve manuel işlerin dijitalleştirilmesi.</value>
+  </data>
+  <data name="ServiceDataReportingDesc" xml:space="preserve">
+    <value>Kuruma özel raporlar, veri işleme çözümleri, Excel/Python/API entegrasyonları ve yönetici panelleri.</value>
+  </data>
+  <data name="ServicePrototypeDesc" xml:space="preserve">
+    <value>Hızlı çalışan prototipler, tıklanabilir arayüzler ve gerçek senaryolarla test edilmiş çözümler.</value>
+  </data>
+  <data name="ViewAllServices" xml:space="preserve">
+    <value>Tüm Hizmetleri Görüntüle</value>
+  </data>
+  <data name="MethodologyText" xml:space="preserve">
+    <value>Problemi anlayarak başlıyor, çözümü size özel tasarlıyoruz.</value>
+  </data>
+  <data name="LimitItem1" xml:space="preserve">
+    <value>Herkese web sitesi yapmayız</value>
+  </data>
+  <data name="LimitItem2" xml:space="preserve">
+    <value>Template sistemler satmayız</value>
+  </data>
+  <data name="LimitItem3" xml:space="preserve">
+    <value>"Bir şeyler olsun" projelerine girmeyiz</value>
+  </data>
+  <data name="LimitItem4" xml:space="preserve">
+    <value>Net problemi olmayan talepleri kabul etmeyiz</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ========== -->
+  <data name="AboutTitle" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="AboutSubtitle" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="AboutHeading" xml:space="preserve">
+    <value>Tailcode Kimdir?</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>Problemi anlayan ve ona özel çözüm üreten bir yazılım ortağı.</value>
+  </data>
+  <data name="WhatIsTitle" xml:space="preserve">
+    <value>Tailcode Nedir?</value>
+  </data>
+  <data name="WhatIsText" xml:space="preserve">
+    <value>Tailcode; kurumların, ekiplerin ve organizasyonların hazır yazılım kalıplarına uymak zorunda kalmadan, kendi işleyişlerine birebir uyumlu yazılımlara sahip olabilmeleri için kurulan bir yazılım çözüm şirketidir.</value>
+  </data>
+  <data name="NotAgency" xml:space="preserve">
+    <value>Tailcode bir yazılım ajansı değildir.</value>
+  </data>
+  <data name="NotProduct" xml:space="preserve">
+    <value>Tailcode bir ürün şirketi değildir.</value>
+  </data>
+  <data name="NotEverything" xml:space="preserve">
+    <value>Tailcode bir "her şeyi yaparız" yapısı değildir.</value>
+  </data>
+  <data name="IsPartner" xml:space="preserve">
+    <value>Tailcode, problemi anlayan ve ona özel çözüm üreten bir yazılım ortağıdır.</value>
+  </data>
+  <data name="VisionTitle" xml:space="preserve">
+    <value>Vizyon</value>
+  </data>
+  <data name="VisionText" xml:space="preserve">
+    <value>Kurumların kendi süreçlerine tam uyum sağlayan yazılımlarla çalıştığı, teknolojinin engel değil kolaylaştırıcı olduğu bir dünya.</value>
+  </data>
+  <data name="MissionTitle" xml:space="preserve">
+    <value>Misyon</value>
+  </data>
+  <data name="MissionText" xml:space="preserve">
+    <value>Hazır çözümlerin karşılamadığı kritik %30'u anlamak ve ona özel yazılımlar üretmek.</value>
+  </data>
+  <data name="TargetSubtitle" xml:space="preserve">
+    <value>Hedef Müşteri</value>
+  </data>
+  <data name="TargetTitle" xml:space="preserve">
+    <value>Kimlerle çalışıyoruz?</value>
+  </data>
+  <data name="TargetText" xml:space="preserve">
+    <value>Tailcode, belirli bir müşteri profiline odaklanır. Herkes için değil, doğru ihtiyaçlar için çözüm üretiriz.</value>
+  </data>
+  
+  <!-- ========== ABOUT PAGE ADDITIONAL ========== -->
+  <data name="VisionMission" xml:space="preserve">
+    <value>Vizyon &amp; Misyon</value>
+  </data>
+  <data name="WhyExist" xml:space="preserve">
+    <value>Neden varız?</value>
+  </data>
+  <data name="Target1Title" xml:space="preserve">
+    <value>Kurum içi süreçleri olan yapılar</value>
+  </data>
+  <data name="Target1Desc" xml:space="preserve">
+    <value>Karmaşık iş akışları ve birden fazla birim arasında koordinasyon gerektiren organizasyonlar.</value>
+  </data>
+  <data name="Target2Title" xml:space="preserve">
+    <value>Hazır sistemlerden yorulmuş ekipler</value>
+  </data>
+  <data name="Target2Desc" xml:space="preserve">
+    <value>Mevcut yazılımların eksikliklerinden dolayı manuel çözümlere başvuran takımlar.</value>
+  </data>
+  <data name="Target3Title" xml:space="preserve">
+    <value>"Bize özel olsun" diyen yöneticiler</value>
+  </data>
+  <data name="Target3Desc" xml:space="preserve">
+    <value>Kurumun benzersiz ihtiyaçlarını anlayan ve özel çözüm arayan karar vericiler.</value>
+  </data>
+  <data name="LimitItem1Desc" xml:space="preserve">
+    <value>Genel amaçlı web sitesi geliştirme işi yapmıyoruz. Odağımız kurumsal çözümler.</value>
+  </data>
+  <data name="LimitItem2Desc" xml:space="preserve">
+    <value>Hazır şablonlar veya paket çözümler sunmuyoruz. Her proje size özel tasarlanır.</value>
+  </data>
+  <data name="LimitItem3Desc" xml:space="preserve">
+    <value>Net bir problem tanımı olmadan projeye başlamıyoruz.</value>
+  </data>
+  <data name="LimitItem4Desc" xml:space="preserve">
+    <value>Çözülecek somut bir problem yoksa, başlamıyoruz.</value>
+  </data>
+  <data name="LimitItem5" xml:space="preserve">
+    <value>Ürün rekabetine girmez</value>
+  </data>
+  <data name="LimitItem5Desc" xml:space="preserve">
+    <value>Slack, Discord, OBS gibi genel amaçlı ürünlerle rekabet etmiyoruz.</value>
+  </data>
+  <data name="WorkWithUs" xml:space="preserve">
+    <value>Bizimle çalışmak ister misiniz?</value>
+  </data>
+  <data name="WorkWithUsDesc" xml:space="preserve">
+    <value>Kurumunuzun özel ihtiyaçlarını anlayalım ve birlikte çözüm üretelim.</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ========== -->
+  <data name="ContactTitle" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="ContactSubtitle" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="ContactHeading" xml:space="preserve">
+    <value>Bizimle İletişime Geçin</value>
+  </data>
+  <data name="ContactDescription" xml:space="preserve">
+    <value>Projeniz hakkında konuşmak veya sorularınızı sormak için bize ulaşın.</value>
+  </data>
+  <data name="FormName" xml:space="preserve">
+    <value>Ad Soyad</value>
+  </data>
+  <data name="FormEmail" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="FormSubject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="FormVision" xml:space="preserve">
+    <value>Proje Vizyonunuz</value>
+  </data>
+  <data name="FormMessage" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="FormSend" xml:space="preserve">
+    <value>Mesaj Gönder</value>
+  </data>
+  <data name="FormNamePlaceholder" xml:space="preserve">
+    <value>Adınız ve soyadınız</value>
+  </data>
+  <data name="FormEmailPlaceholder" xml:space="preserve">
+    <value>ornek@email.com</value>
+  </data>
+  <data name="FormSubjectPlaceholder" xml:space="preserve">
+    <value>Konu başlığı (opsiyonel)</value>
+  </data>
+  <data name="FormVisionPlaceholder" xml:space="preserve">
+    <value>Projenizin vizyonunu kısaca açıklayın (opsiyonel)</value>
+  </data>
+  <data name="FormMessagePlaceholder" xml:space="preserve">
+    <value>Mesajınızı buraya yazın...</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="ContactResponse" xml:space="preserve">
+    <value>Yanıt Süresi</value>
+  </data>
+  <data name="ContactResponseText" xml:space="preserve">
+    <value>24 saat içinde</value>
+  </data>
+  <data name="ContactMeeting" xml:space="preserve">
+    <value>İlk Görüşme</value>
+  </data>
+  <data name="ContactMeetingText" xml:space="preserve">
+    <value>Ücretsiz</value>
+  </data>
+  
+  <!-- ========== CONTACT PAGE ADDITIONAL ========== -->
+  <data name="SendMessage" xml:space="preserve">
+    <value>Mesaj Gönderin</value>
+  </data>
+  <data name="SendMessageDesc" xml:space="preserve">
+    <value>Formu doldurun, en kısa sürede size dönüş yapalım.</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>İletişim Bilgileri</value>
+  </data>
+  <data name="ContactResponseDesc" xml:space="preserve">
+    <value>Genellikle 24 saat içinde dönüş yapıyoruz.</value>
+  </data>
+  <data name="ContactMeetingDesc" xml:space="preserve">
+    <value>Ücretsiz keşif görüşmesi ile başlıyoruz.</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Sık Sorulan Sorular</value>
+  </data>
+  <data name="FAQ1Q" xml:space="preserve">
+    <value>İlk görüşme ücretli mi?</value>
+  </data>
+  <data name="FAQ1A" xml:space="preserve">
+    <value>Hayır, keşif görüşmesi ücretsizdir.</value>
+  </data>
+  <data name="FAQ2Q" xml:space="preserve">
+    <value>Bir proje ne kadar sürer?</value>
+  </data>
+  <data name="FAQ2A" xml:space="preserve">
+    <value>Kapsama göre değişir. Prototipler 2-4 hafta, tam projeler 2-6 ay sürebilir.</value>
+  </data>
+  <data name="FAQ3Q" xml:space="preserve">
+    <value>Uzaktan çalışıyor musunuz?</value>
+  </data>
+  <data name="FAQ3A" xml:space="preserve">
+    <value>Evet, tüm projelerimizi uzaktan yürütebiliyoruz.</value>
+  </data>
+  <data name="LetsStart" xml:space="preserve">
+    <value>Hemen Başlayalım</value>
+  </data>
+  <data name="LetsStartDesc" xml:space="preserve">
+    <value>Projenizi anlatın, birlikte çözüm üretelim.</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Gönderiliyor...</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ========== -->
+  <data name="SolutionsTitle" xml:space="preserve">
+    <value>Çözümlerimiz</value>
+  </data>
+  <data name="SolutionsSubtitle" xml:space="preserve">
+    <value>Çözümlerimiz</value>
+  </data>
+  <data name="SolutionsHeading" xml:space="preserve">
+    <value>Hangi Problemleri Çözüyoruz?</value>
+  </data>
+  <data name="SolutionsDescription" xml:space="preserve">
+    <value>Hazır sistemlerin karşılamadığı kritik %30'luk alanı ele alıyoruz.</value>
+  </data>
+  <data name="ReadySystems" xml:space="preserve">
+    <value>Hazır sistemler</value>
+  </data>
+  <data name="Covers" xml:space="preserve">
+    <value>karşılar</value>
+  </data>
+  <data name="CriticalNeeds" xml:space="preserve">
+    <value>Kritik ihtiyaçlar</value>
+  </data>
+  <data name="NotCovered" xml:space="preserve">
+    <value>karşılanmaz</value>
+  </data>
+  <data name="TailcodeSolves" xml:space="preserve">
+    <value>Tailcode bu %30'u çözer.</value>
+  </data>
+  <data name="ScenariosSubtitle" xml:space="preserve">
+    <value>Örnek Senaryolar</value>
+  </data>
+  <data name="ScenariosTitle" xml:space="preserve">
+    <value>Bu durumlar size tanıdık geliyorsa...</value>
+  </data>
+  <data name="ScenariosText" xml:space="preserve">
+    <value>İşte Tailcode'un çözdüğü tipik problemler.</value>
+  </data>
+  <data name="ResultsSubtitle" xml:space="preserve">
+    <value>Sonuçlar</value>
+  </data>
+  <data name="ResultsTitle" xml:space="preserve">
+    <value>Ne elde edersiniz?</value>
+  </data>
+  <data name="ResultTime" xml:space="preserve">
+    <value>Zaman Tasarrufu</value>
+  </data>
+  <data name="ResultConsistency" xml:space="preserve">
+    <value>Tutarlılık</value>
+  </data>
+  <data name="ResultVisibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="ResultFit" xml:space="preserve">
+    <value>Uyum</value>
+  </data>
+  
+  <!-- ========== SOLUTIONS PAGE ADDITIONAL ========== -->
+  <data name="CoreProblem" xml:space="preserve">
+    <value>Temel Problem</value>
+  </data>
+  <data name="WhyNotEnough" xml:space="preserve">
+    <value>Hazır sistemler neden yetmiyor?</value>
+  </data>
+  <data name="This30Leads" xml:space="preserve">
+    <value>Bu %30'luk alan şunlara yol açar:</value>
+  </data>
+  <data name="Sol1Item1" xml:space="preserve">
+    <value>İş akışını bozar ve süreçleri yavaşlatır</value>
+  </data>
+  <data name="Sol1Item2" xml:space="preserve">
+    <value>Ekiplere ekstra iş yükü getirir</value>
+  </data>
+  <data name="Sol1Item3" xml:space="preserve">
+    <value>Manuel çözümler ve geçici "workaround"lar doğurur</value>
+  </data>
+  <data name="Sol1Item4" xml:space="preserve">
+    <value>Verimsizlik ve tutarsızlık yaratır</value>
+  </data>
+  <data name="Sol1Item5" xml:space="preserve">
+    <value>Raporlama ve karar almayı zorlaştırır</value>
+  </data>
+  <data name="Scenario1Title" xml:space="preserve">
+    <value>"Excel'de takip ediyoruz"</value>
+  </data>
+  <data name="Scenario1Text" xml:space="preserve">
+    <value>Süreçlerinizi Excel tablolarında mı yönetiyorsunuz? Veriler dağınık, güncelleme zor ve raporlama kabus mu?</value>
+  </data>
+  <data name="Scenario1Solution" xml:space="preserve">
+    <value>Özel bir süreç yönetim sistemi oluşturuyoruz.</value>
+  </data>
+  <data name="Scenario2Title" xml:space="preserve">
+    <value>"E-posta zincirlerinde kayboluyoruz"</value>
+  </data>
+  <data name="Scenario2Text" xml:space="preserve">
+    <value>Onay süreçleri, görev takibi ve iletişim e-posta üzerinden mi yürüyor? Kim ne yaptı, nerede kaldık?</value>
+  </data>
+  <data name="Scenario2Solution" xml:space="preserve">
+    <value>Merkezi bir iş akışı platformu kuruyoruz.</value>
+  </data>
+  <data name="Scenario3Title" xml:space="preserve">
+    <value>"Her sistem ayrı çalışıyor"</value>
+  </data>
+  <data name="Scenario3Text" xml:space="preserve">
+    <value>Farklı yazılımlar kullanıyorsunuz ama aralarında entegrasyon yok mu? Veri tekrar tekrar giriliyor mu?</value>
+  </data>
+  <data name="Scenario3Solution" xml:space="preserve">
+    <value>Sistemleri birbirine bağlayan katman oluşturuyoruz.</value>
+  </data>
+  <data name="Scenario4Title" xml:space="preserve">
+    <value>"Rapor almak saatler sürüyor"</value>
+  </data>
+  <data name="Scenario4Text" xml:space="preserve">
+    <value>Yönetim raporları için farklı kaynaklardan veri toplamak mı gerekiyor? Manuel hesaplamalar mı yapılıyor?</value>
+  </data>
+  <data name="Scenario4Solution" xml:space="preserve">
+    <value>Otomatik raporlama ve dashboard çözümü sunuyoruz.</value>
+  </data>
+  <data name="Scenario5Title" xml:space="preserve">
+    <value>"Herkes farklı yol izliyor"</value>
+  </data>
+  <data name="Scenario5Text" xml:space="preserve">
+    <value>Standardize edilmiş süreçleriniz var ama uygulama tutarsız mı? Birimler arası koordinasyon zor mu?</value>
+  </data>
+  <data name="Scenario5Solution" xml:space="preserve">
+    <value>Standart iş akışlarını dijitalleştiriyoruz.</value>
+  </data>
+  <data name="Scenario6Title" xml:space="preserve">
+    <value>"Fikrimiz var ama test edemiyoruz"</value>
+  </data>
+  <data name="Scenario6Text" xml:space="preserve">
+    <value>Yeni bir süreç veya sistem fikriniz mi var? Büyük yatırım yapmadan önce test etmek mi istiyorsunuz?</value>
+  </data>
+  <data name="Scenario6Solution" xml:space="preserve">
+    <value>Hızlı prototiple fikri somutlaştırıyoruz.</value>
+  </data>
+  <data name="ApproachSubtitle" xml:space="preserve">
+    <value>Yaklaşımımız</value>
+  </data>
+  <data name="ApproachTitle" xml:space="preserve">
+    <value>Probleme nasıl yaklaşıyoruz?</value>
+  </data>
+  <data name="ApproachLead" xml:space="preserve">
+    <value>Her projeye "bu problemi gerçekten anlıyor muyuz?" sorusuyla başlıyoruz.</value>
+  </data>
+  <data name="ApproachText1" xml:space="preserve">
+    <value>Çözüm sunmadan önce problemi tam olarak anlamak en önemli adımdır. Bu nedenle her projede detaylı bir analiz yapıyor, mevcut süreçleri haritalıyor ve gerçek kullanıcılarla konuşuyoruz.</value>
+  </data>
+  <data name="ApproachText2" xml:space="preserve">
+    <value>Amacımız "bir yazılım yapmak" değil, "bir problemi çözmek"tir. Bu fark, sonuçta ortaya çıkan çözümün kalitesini doğrudan etkiler.</value>
+  </data>
+  <data name="ResultTimeDesc" xml:space="preserve">
+    <value>Manuel işler otomatize edilir, ekipler asıl işlerine odaklanır.</value>
+  </data>
+  <data name="ResultConsistencyDesc" xml:space="preserve">
+    <value>Standart süreçler, hata oranını azaltır ve kaliteyi artırır.</value>
+  </data>
+  <data name="ResultVisibilityDesc" xml:space="preserve">
+    <value>Veriye dayalı kararlar için net raporlar ve dashboard'lar.</value>
+  </data>
+  <data name="ResultFitDesc" xml:space="preserve">
+    <value>Size özel tasarlandığı için iş akışınıza tam uyum sağlar.</value>
+  </data>
+  <data name="SolutionsCTAText" xml:space="preserve">
+    <value>Kurumunuzdaki süreç sorunlarını paylaşın, birlikte çözüm bulalım.</value>
+  </data>
+  
+  <!-- ========== COMMON ========== -->
+  <data name="YourProblem" xml:space="preserve">
+    <value>Sizin probleminiz ne?</value>
+  </data>
+  <data name="TellProblem" xml:space="preserve">
+    <value>Probleminizi Anlatın</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Dil Seçin</value>
+  </data>
+</root>

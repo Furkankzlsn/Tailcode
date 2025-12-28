@@ -1,16 +1,48 @@
 ﻿// Tailcode - Site JavaScript
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Mobile Navigation Toggle
+    // Mobile Navigation Toggle with Overlay
     const navbarToggle = document.getElementById('navbarToggle');
     const navbarNav = document.getElementById('navbarNav');
+    const navbarOverlay = document.getElementById('navbarOverlay');
+
+    function openMobileMenu() {
+        navbarNav.classList.add('active');
+        navbarToggle.classList.add('active');
+        if (navbarOverlay) navbarOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+        navbarNav.classList.remove('active');
+        navbarToggle.classList.remove('active');
+        if (navbarOverlay) navbarOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
 
     if (navbarToggle && navbarNav) {
         navbarToggle.addEventListener('click', function () {
-            navbarNav.classList.toggle('active');
-            navbarToggle.classList.toggle('active');
+            if (navbarNav.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
         });
     }
+
+    // Close menu when clicking overlay
+    if (navbarOverlay) {
+        navbarOverlay.addEventListener('click', closeMobileMenu);
+    }
+
+    // Close menu when clicking a nav link (for same-page navigation)
+    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+        link.addEventListener('click', function () {
+            if (window.innerWidth <= 768) {
+                closeMobileMenu();
+            }
+        });
+    });
 
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
@@ -74,17 +106,18 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-});
 
-// Close mobile menu when clicking outside
-document.addEventListener('click', function (e) {
-    const navbarNav = document.getElementById('navbarNav');
-    const navbarToggle = document.getElementById('navbarToggle');
-
-    if (navbarNav && navbarNav.classList.contains('active')) {
-        if (!navbarNav.contains(e.target) && !navbarToggle.contains(e.target)) {
-            navbarNav.classList.remove('active');
-            navbarToggle.classList.remove('active');
+    // Handle window resize - close menu if resized to desktop
+    window.addEventListener('resize', function () {
+        if (window.innerWidth > 768) {
+            closeMobileMenu();
         }
-    }
+    });
+
+    // Escape key to close menu
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && navbarNav && navbarNav.classList.contains('active')) {
+            closeMobileMenu();
+        }
+    });
 });
